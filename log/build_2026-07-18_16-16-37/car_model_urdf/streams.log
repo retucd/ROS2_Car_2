@@ -1,0 +1,54 @@
+[1.730s] Invoking command in '/home/sunrise/Robot_Car/build/car_model_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/Robot_Car/install/car_control_tools:/home/sunrise/Robot_Car/install/car_base_driver:/opt/ros/humble /usr/bin/cmake /home/sunrise/Robot_Car/src/car_model_urdf -DCMAKE_INSTALL_PREFIX=/home/sunrise/Robot_Car/install/car_model_urdf
+[3.653s] -- The C compiler identification is GNU 11.2.0
+[3.655s] -- The CXX compiler identification is GNU 11.2.0
+[3.656s] -- Detecting C compiler ABI info
+[3.658s] -- Detecting C compiler ABI info - done
+[3.662s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.665s] -- Detecting C compile features
+[3.668s] -- Detecting C compile features - done
+[3.669s] -- Detecting CXX compiler ABI info
+[3.672s] -- Detecting CXX compiler ABI info - done
+[3.673s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.677s] -- Detecting CXX compile features
+[3.679s] -- Detecting CXX compile features - done
+[3.680s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.822s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[7.615s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.383s] -- Added test 'flake8' to check Python code syntax and style conventions
+[8.389s] -- Added test 'lint_cmake' to check CMake code style
+[8.395s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[8.404s] -- Added test 'xmllint' to check XML markup files
+[8.416s] -- Configuring done
+[8.434s] -- Generating done
+[8.448s] -- Build files have been written to: /home/sunrise/Robot_Car/build/car_model_urdf
+[8.481s] Invoked command in '/home/sunrise/Robot_Car/build/car_model_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/Robot_Car/install/car_control_tools:/home/sunrise/Robot_Car/install/car_base_driver:/opt/ros/humble /usr/bin/cmake /home/sunrise/Robot_Car/src/car_model_urdf -DCMAKE_INSTALL_PREFIX=/home/sunrise/Robot_Car/install/car_model_urdf
+[8.491s] Invoking command in '/home/sunrise/Robot_Car/build/car_model_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/Robot_Car/install/car_control_tools:/home/sunrise/Robot_Car/install/car_base_driver:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/Robot_Car/build/car_model_urdf -- -j4 -l4
+[8.721s] Invoked command in '/home/sunrise/Robot_Car/build/car_model_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/Robot_Car/install/car_control_tools:/home/sunrise/Robot_Car/install/car_base_driver:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/Robot_Car/build/car_model_urdf -- -j4 -l4
+[8.766s] Invoking command in '/home/sunrise/Robot_Car/build/car_model_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/Robot_Car/install/car_control_tools:/home/sunrise/Robot_Car/install/car_base_driver:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/Robot_Car/build/car_model_urdf
+[8.806s] -- Install configuration: ""
+[8.809s] -- Installing: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/launch
+[8.812s] -- Installing: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/launch/display_xacro.launch.py
+[8.814s] -- Installing: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/launch/descriptionl.launch.py
+[8.816s] -- Installing: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/launch/display_urdf.launch.py
+[8.818s] -- Installing: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/urdf
+[8.820s] -- Installing: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/urdf/car_model.urdf
+[8.823s] -- Installing: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/urdf/car_model.urdf.xacro
+[8.825s] -- Installing: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/config
+[8.828s] -- Installing: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/config/rviz
+[8.829s] -- Installing: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/config/rviz/dispaly_model.rviz
+[8.832s] -- Installing: /home/sunrise/Robot_Car/install/car_model_urdf/share/ament_index/resource_index/package_run_dependencies/car_model_urdf
+[8.834s] -- Installing: /home/sunrise/Robot_Car/install/car_model_urdf/share/ament_index/resource_index/parent_prefix_path/car_model_urdf
+[8.837s] -- Installing: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/environment/ament_prefix_path.sh
+[8.839s] -- Installing: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/environment/ament_prefix_path.dsv
+[8.841s] -- Installing: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/environment/path.sh
+[8.844s] -- Installing: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/environment/path.dsv
+[8.846s] -- Installing: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/local_setup.bash
+[8.848s] -- Installing: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/local_setup.sh
+[8.852s] -- Installing: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/local_setup.zsh
+[8.856s] -- Installing: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/local_setup.dsv
+[8.858s] -- Installing: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/package.dsv
+[8.863s] -- Installing: /home/sunrise/Robot_Car/install/car_model_urdf/share/ament_index/resource_index/packages/car_model_urdf
+[8.866s] -- Installing: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/cmake/car_model_urdfConfig.cmake
+[8.867s] -- Installing: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/cmake/car_model_urdfConfig-version.cmake
+[8.869s] -- Installing: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/package.xml
+[8.889s] Invoked command in '/home/sunrise/Robot_Car/build/car_model_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/Robot_Car/install/car_control_tools:/home/sunrise/Robot_Car/install/car_base_driver:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/Robot_Car/build/car_model_urdf

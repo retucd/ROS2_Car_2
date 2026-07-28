@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: car_control_tools
+Version: 0.0.1
+Summary: 从中断向Nav2发送地图坐标目标
+Maintainer: user
+Maintainer-email: user@example.com
+License: Apache-2.0
+Requires-Dist: setuptools
+Dynamic: license
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: requires-dist
+Dynamic: summary

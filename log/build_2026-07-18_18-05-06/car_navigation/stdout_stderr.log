@@ -1,0 +1,23 @@
+-- Install configuration: ""
+-- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/config
+-- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/config/nav2_params.yaml
+-- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/config/slam_toolbox.yaml
+-- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/launch
+-- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/launch/robot_bringup.launch.py
+-- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/launch/mapping.launch.py
+-- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/launch/navigation.launch.py
+-- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/ament_index/resource_index/package_run_dependencies/car_navigation
+-- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/ament_index/resource_index/parent_prefix_path/car_navigation
+-- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/environment/ament_prefix_path.sh
+-- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/environment/path.sh
+-- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/environment/path.dsv
+-- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/local_setup.bash
+-- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/local_setup.sh
+-- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/local_setup.zsh
+-- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/local_setup.dsv
+-- Installing: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/package.dsv
+-- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/ament_index/resource_index/packages/car_navigation
+-- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/cmake/car_navigationConfig.cmake
+-- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/cmake/car_navigationConfig-version.cmake
+-- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/package.xml

@@ -1,0 +1,347 @@
+[0.000000] (-) TimerEvent: {}
+[0.001708] (car_base_driver) JobQueued: {'identifier': 'car_base_driver', 'dependencies': OrderedDict()}
+[0.003964] (car_control_tools) JobQueued: {'identifier': 'car_control_tools', 'dependencies': OrderedDict()}
+[0.005367] (car_model_urdf) JobQueued: {'identifier': 'car_model_urdf', 'dependencies': OrderedDict()}
+[0.006531] (ydlidar_ros2_driver) JobQueued: {'identifier': 'ydlidar_ros2_driver', 'dependencies': OrderedDict()}
+[0.006893] (car_navigation) JobQueued: {'identifier': 'car_navigation', 'dependencies': OrderedDict([('car_base_driver', '/home/sunrise/Robot_Car/install/car_base_driver'), ('car_model_urdf', '/home/sunrise/Robot_Car/install/car_model_urdf')])}
+[0.007305] (car_base_driver) JobStarted: {'identifier': 'car_base_driver'}
+[0.065133] (car_model_urdf) JobStarted: {'identifier': 'car_model_urdf'}
+[0.094824] (car_control_tools) JobStarted: {'identifier': 'car_control_tools'}
+[0.098919] (-) TimerEvent: {}
+[0.150258] (ydlidar_ros2_driver) JobStarted: {'identifier': 'ydlidar_ros2_driver'}
+[0.201555] (-) TimerEvent: {}
+[0.303792] (-) TimerEvent: {}
+[0.423483] (-) TimerEvent: {}
+[0.525795] (-) TimerEvent: {}
+[0.626841] (-) TimerEvent: {}
+[0.727929] (-) TimerEvent: {}
+[0.829116] (-) TimerEvent: {}
+[0.930179] (-) TimerEvent: {}
+[1.031305] (-) TimerEvent: {}
+[1.132399] (-) TimerEvent: {}
+[1.233474] (-) TimerEvent: {}
+[1.334568] (-) TimerEvent: {}
+[1.435607] (-) TimerEvent: {}
+[1.536693] (-) TimerEvent: {}
+[1.637787] (-) TimerEvent: {}
+[1.738931] (-) TimerEvent: {}
+[1.840145] (-) TimerEvent: {}
+[1.941287] (-) TimerEvent: {}
+[2.042593] (-) TimerEvent: {}
+[2.143692] (-) TimerEvent: {}
+[2.244849] (-) TimerEvent: {}
+[2.345948] (-) TimerEvent: {}
+[2.413842] (car_model_urdf) JobProgress: {'identifier': 'car_model_urdf', 'progress': 'cmake'}
+[2.418268] (car_model_urdf) JobProgress: {'identifier': 'car_model_urdf', 'progress': 'build'}
+[2.423701] (car_model_urdf) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sunrise/Robot_Car/build/car_model_urdf', '--', '-j4', '-l4'], 'cwd': '/home/sunrise/Robot_Car/build/car_model_urdf', 'env': OrderedDict([('LANGUAGE', 'zh_CN'), ('USER', 'sunrise'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '4017'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sunrise'), ('DESKTOP_SESSION', 'xfce'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sunrise'), ('WINDOWID', '62914563'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/3673,unix/ubuntu:/tmp/.ICE-unix/3673'), ('GDM_LANG', 'zh_CN'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'xfce'), ('XAUTHORITY', '/home/sunrise/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXE7D9bb/agent.4002'), ('ROS_DOMAIN_ID', '0'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/sunrise'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('GDMSESSION', 'xfce'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('PWD', '/home/sunrise/Robot_Car/build/car_model_urdf'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/xfce4:/usr/local/share/:/usr/share/:/usr/share'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.446161] (-) TimerEvent: {}
+[2.547249] (-) TimerEvent: {}
+[2.648463] (-) TimerEvent: {}
+[2.749810] (-) TimerEvent: {}
+[2.850922] (-) TimerEvent: {}
+[2.952365] (-) TimerEvent: {}
+[3.053376] (-) TimerEvent: {}
+[3.154431] (-) TimerEvent: {}
+[3.255601] (-) TimerEvent: {}
+[3.356724] (-) TimerEvent: {}
+[3.457808] (-) TimerEvent: {}
+[3.558865] (-) TimerEvent: {}
+[3.659965] (-) TimerEvent: {}
+[3.761194] (-) TimerEvent: {}
+[3.862550] (-) TimerEvent: {}
+[3.964141] (-) TimerEvent: {}
+[4.065246] (-) TimerEvent: {}
+[4.166407] (-) TimerEvent: {}
+[4.267747] (-) TimerEvent: {}
+[4.370636] (-) TimerEvent: {}
+[4.471727] (-) TimerEvent: {}
+[4.572905] (-) TimerEvent: {}
+[4.674852] (-) TimerEvent: {}
+[4.695138] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'cmake'}
+[4.700531] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'build'}
+[4.702575] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sunrise/Robot_Car/build/ydlidar_ros2_driver', '--', '-j4', '-l4'], 'cwd': '/home/sunrise/Robot_Car/build/ydlidar_ros2_driver', 'env': OrderedDict([('LANGUAGE', 'zh_CN'), ('USER', 'sunrise'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '4017'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sunrise'), ('DESKTOP_SESSION', 'xfce'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sunrise'), ('WINDOWID', '62914563'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/3673,unix/ubuntu:/tmp/.ICE-unix/3673'), ('GDM_LANG', 'zh_CN'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'xfce'), ('XAUTHORITY', '/home/sunrise/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXE7D9bb/agent.4002'), ('ROS_DOMAIN_ID', '0'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/sunrise'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('GDMSESSION', 'xfce'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('PWD', '/home/sunrise/Robot_Car/build/ydlidar_ros2_driver'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/xfce4:/usr/local/share/:/usr/share/:/usr/share'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.753576] (car_model_urdf) CommandEnded: {'returncode': 0}
+[4.758267] (car_model_urdf) JobProgress: {'identifier': 'car_model_urdf', 'progress': 'install'}
+[4.775094] (-) TimerEvent: {}
+[4.806294] (car_model_urdf) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sunrise/Robot_Car/build/car_model_urdf'], 'cwd': '/home/sunrise/Robot_Car/build/car_model_urdf', 'env': OrderedDict([('LANGUAGE', 'zh_CN'), ('USER', 'sunrise'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '4017'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sunrise'), ('DESKTOP_SESSION', 'xfce'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sunrise'), ('WINDOWID', '62914563'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/3673,unix/ubuntu:/tmp/.ICE-unix/3673'), ('GDM_LANG', 'zh_CN'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'xfce'), ('XAUTHORITY', '/home/sunrise/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXE7D9bb/agent.4002'), ('ROS_DOMAIN_ID', '0'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/sunrise'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('GDMSESSION', 'xfce'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('PWD', '/home/sunrise/Robot_Car/build/car_model_urdf'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/xfce4:/usr/local/share/:/usr/share/:/usr/share'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.875401] (-) TimerEvent: {}
+[4.891836] (car_model_urdf) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.893315] (car_model_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/launch\n'}
+[4.894311] (car_model_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/launch/display_xacro.launch.py\n'}
+[4.895251] (car_model_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/launch/descriptionl.launch.py\n'}
+[4.896053] (car_model_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/launch/display_urdf.launch.py\n'}
+[4.916066] (car_model_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/urdf\n'}
+[4.918507] (car_model_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/urdf/car_model.urdf\n'}
+[4.919732] (car_model_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/urdf/car_model.urdf.xacro\n'}
+[4.922123] (car_model_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/config\n'}
+[4.923092] (car_model_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/config/rviz\n'}
+[4.924039] (car_model_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/config/rviz/dispaly_model.rviz\n'}
+[4.933008] (car_model_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/car_model_urdf/share/ament_index/resource_index/package_run_dependencies/car_model_urdf\n'}
+[4.933889] (car_model_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/car_model_urdf/share/ament_index/resource_index/parent_prefix_path/car_model_urdf\n'}
+[4.935140] (car_model_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/environment/ament_prefix_path.sh\n'}
+[4.949067] (car_model_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/environment/ament_prefix_path.dsv\n'}
+[4.949995] (car_model_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/environment/path.sh\n'}
+[4.950885] (car_model_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/environment/path.dsv\n'}
+[4.951768] (car_model_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/local_setup.bash\n'}
+[4.952863] (car_model_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/local_setup.sh\n'}
+[4.953672] (car_model_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/local_setup.zsh\n'}
+[4.954415] (car_model_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/local_setup.dsv\n'}
+[4.955127] (car_model_urdf) StdoutLine: {'line': b'-- Installing: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/package.dsv\n'}
+[4.955837] (car_model_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/car_model_urdf/share/ament_index/resource_index/packages/car_model_urdf\n'}
+[4.956791] (car_model_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/cmake/car_model_urdfConfig.cmake\n'}
+[4.957652] (car_model_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/cmake/car_model_urdfConfig-version.cmake\n'}
+[4.958420] (car_model_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/package.xml\n'}
+[4.959286] (car_model_urdf) CommandEnded: {'returncode': 0}
+[4.975618] (-) TimerEvent: {}
+[5.078677] (-) TimerEvent: {}
+[5.105198] (car_model_urdf) JobEnded: {'identifier': 'car_model_urdf', 'rc': 0}
+[5.178924] (-) TimerEvent: {}
+[5.213556] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 50%] Built target ydlidar_ros2_driver_node\n'}
+[5.280454] (-) TimerEvent: {}
+[5.381779] (-) TimerEvent: {}
+[5.484445] (-) TimerEvent: {}
+[5.545363] (ydlidar_ros2_driver) StdoutLine: {'line': b'[100%] Built target ydlidar_ros2_driver_client\n'}
+[5.588395] (-) TimerEvent: {}
+[5.656433] (ydlidar_ros2_driver) CommandEnded: {'returncode': 0}
+[5.658807] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'install'}
+[5.667481] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sunrise/Robot_Car/build/ydlidar_ros2_driver'], 'cwd': '/home/sunrise/Robot_Car/build/ydlidar_ros2_driver', 'env': OrderedDict([('LANGUAGE', 'zh_CN'), ('USER', 'sunrise'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '4017'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sunrise'), ('DESKTOP_SESSION', 'xfce'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sunrise'), ('WINDOWID', '62914563'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/3673,unix/ubuntu:/tmp/.ICE-unix/3673'), ('GDM_LANG', 'zh_CN'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'xfce'), ('XAUTHORITY', '/home/sunrise/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXE7D9bb/agent.4002'), ('ROS_DOMAIN_ID', '0'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/sunrise'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('GDMSESSION', 'xfce'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('PWD', '/home/sunrise/Robot_Car/build/ydlidar_ros2_driver'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/xfce4:/usr/local/share/:/usr/share/:/usr/share'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.692423] (-) TimerEvent: {}
+[5.731289] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.738030] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node\n'}
+[5.739415] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client\n'}
+[5.744871] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch\n'}
+[5.746800] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch_view.py\n'}
+[5.752370] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar.py\n'}
+[5.754227] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py\n'}
+[5.755678] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params\n'}
+[5.765593] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G6.yaml\n'}
+[5.766641] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/sdm15.yaml\n'}
+[5.767566] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/GS2.yaml\n'}
+[5.768595] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TG.yaml\n'}
+[5.769630] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/Tmini.yaml\n'}
+[5.770598] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4.yaml\n'}
+[5.771533] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4-Pro.yaml\n'}
+[5.808524] (-) TimerEvent: {}
+[5.809531] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/Tmini-Plus-SH.yaml\n'}
+[5.849367] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/GS5.yaml\n'}
+[5.851201] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G2.yaml\n'}
+[5.856569] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X2.yaml\n'}
+[5.868925] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TEA.yaml\n'}
+[5.869869] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml\n'}
+[5.871816] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G4.yaml\n'}
+[5.873292] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X3.yaml\n'}
+[5.874248] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G1.yaml\n'}
+[5.875059] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup\n'}
+[5.875870] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup/initenv.sh\n'}
+[5.892489] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config\n'}
+[5.893389] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar.rviz\n'}
+[5.894147] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ament_index/resource_index/package_run_dependencies/ydlidar_ros2_driver\n'}
+[5.895024] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ament_index/resource_index/parent_prefix_path/ydlidar_ros2_driver\n'}
+[5.895791] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.sh\n'}
+[5.924743] (-) TimerEvent: {}
+[5.925521] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.dsv\n'}
+[5.926283] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.sh\n'}
+[5.926963] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.dsv\n'}
+[5.927664] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.bash\n'}
+[5.928596] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.sh\n'}
+[5.929592] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.zsh\n'}
+[5.930601] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.dsv\n'}
+[5.931386] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv\n'}
+[5.932147] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ament_index/resource_index/packages/ydlidar_ros2_driver\n'}
+[5.937321] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig.cmake\n'}
+[5.938164] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig-version.cmake\n'}
+[5.938891] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.xml\n'}
+[5.939550] (ydlidar_ros2_driver) CommandEnded: {'returncode': 0}
+[6.032414] (-) TimerEvent: {}
+[6.052500] (ydlidar_ros2_driver) JobEnded: {'identifier': 'ydlidar_ros2_driver', 'rc': 0}
+[6.136428] (-) TimerEvent: {}
+[6.240467] (-) TimerEvent: {}
+[6.344409] (-) TimerEvent: {}
+[6.448404] (-) TimerEvent: {}
+[6.550205] (-) TimerEvent: {}
+[6.651233] (-) TimerEvent: {}
+[6.752394] (-) TimerEvent: {}
+[6.853443] (-) TimerEvent: {}
+[6.954436] (-) TimerEvent: {}
+[7.056409] (-) TimerEvent: {}
+[7.160391] (-) TimerEvent: {}
+[7.264380] (-) TimerEvent: {}
+[7.368392] (-) TimerEvent: {}
+[7.472396] (-) TimerEvent: {}
+[7.576383] (-) TimerEvent: {}
+[7.680380] (-) TimerEvent: {}
+[7.781391] (-) TimerEvent: {}
+[7.882706] (-) TimerEvent: {}
+[7.984368] (-) TimerEvent: {}
+[8.088394] (-) TimerEvent: {}
+[8.192370] (-) TimerEvent: {}
+[8.296422] (-) TimerEvent: {}
+[8.400400] (-) TimerEvent: {}
+[8.504389] (-) TimerEvent: {}
+[8.608407] (-) TimerEvent: {}
+[8.712390] (-) TimerEvent: {}
+[8.816400] (-) TimerEvent: {}
+[8.924409] (-) TimerEvent: {}
+[9.028440] (-) TimerEvent: {}
+[9.132406] (-) TimerEvent: {}
+[9.236401] (-) TimerEvent: {}
+[9.340370] (-) TimerEvent: {}
+[9.444387] (-) TimerEvent: {}
+[9.548433] (-) TimerEvent: {}
+[9.649446] (-) TimerEvent: {}
+[9.750757] (-) TimerEvent: {}
+[9.852039] (-) TimerEvent: {}
+[9.953417] (-) TimerEvent: {}
+[10.054669] (-) TimerEvent: {}
+[10.156063] (-) TimerEvent: {}
+[10.257710] (-) TimerEvent: {}
+[10.359102] (-) TimerEvent: {}
+[10.375481] (car_base_driver) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/car_base_driver', 'build', '--build-base', '/home/sunrise/Robot_Car/build/car_base_driver/build', 'install', '--record', '/home/sunrise/Robot_Car/build/car_base_driver/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/sunrise/Robot_Car/src/car_base_driver', 'env': {'LANGUAGE': 'zh_CN', 'USER': 'sunrise', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '4017', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/sunrise', 'DESKTOP_SESSION': 'xfce', 'ROS_PYTHON_VERSION': '3', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'sunrise', 'WINDOWID': '62914563', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': 'c1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/3673,unix/ubuntu:/tmp/.ICE-unix/3673', 'GDM_LANG': 'zh_CN', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'xfce-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'xfce', 'XAUTHORITY': '/home/sunrise/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/tmp/ssh-XXXXXXE7D9bb/agent.4002', 'ROS_DOMAIN_ID': '0', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/sunrise', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'GDMSESSION': 'xfce', 'QT_IM_MODULE': 'ibus', 'XDG_VTNR': '7', 'PWD': '/home/sunrise/Robot_Car/build/car_base_driver', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/xfce4:/usr/local/share/:/usr/share/:/usr/share', 'PYTHONPATH': '/home/sunrise/Robot_Car/build/car_base_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/Robot_Car/install/car_base_driver/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[10.459372] (-) TimerEvent: {}
+[10.525795] (car_control_tools) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/car_control_tools', 'build', '--build-base', '/home/sunrise/Robot_Car/build/car_control_tools/build', 'install', '--record', '/home/sunrise/Robot_Car/build/car_control_tools/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/sunrise/Robot_Car/src/car_control_tools', 'env': {'LANGUAGE': 'zh_CN', 'USER': 'sunrise', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '4017', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/sunrise', 'DESKTOP_SESSION': 'xfce', 'ROS_PYTHON_VERSION': '3', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'sunrise', 'WINDOWID': '62914563', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': 'c1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/3673,unix/ubuntu:/tmp/.ICE-unix/3673', 'GDM_LANG': 'zh_CN', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'xfce-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'xfce', 'XAUTHORITY': '/home/sunrise/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/tmp/ssh-XXXXXXE7D9bb/agent.4002', 'ROS_DOMAIN_ID': '0', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/sunrise', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'GDMSESSION': 'xfce', 'QT_IM_MODULE': 'ibus', 'XDG_VTNR': '7', 'PWD': '/home/sunrise/Robot_Car/build/car_control_tools', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/xfce4:/usr/local/share/:/usr/share/:/usr/share', 'PYTHONPATH': '/home/sunrise/Robot_Car/build/car_control_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/Robot_Car/install/car_control_tools/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[10.729362] (-) TimerEvent: {}
+[10.830484] (-) TimerEvent: {}
+[10.931647] (-) TimerEvent: {}
+[11.032804] (-) TimerEvent: {}
+[11.133865] (-) TimerEvent: {}
+[11.234903] (-) TimerEvent: {}
+[11.335946] (-) TimerEvent: {}
+[11.437130] (-) TimerEvent: {}
+[11.538212] (-) TimerEvent: {}
+[11.639353] (-) TimerEvent: {}
+[11.740474] (-) TimerEvent: {}
+[11.841529] (-) TimerEvent: {}
+[11.942555] (-) TimerEvent: {}
+[12.043625] (-) TimerEvent: {}
+[12.045943] (car_base_driver) StderrLine: {'line': b"/usr/local/lib/python3.10/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[12.047445] (car_base_driver) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[12.143852] (-) TimerEvent: {}
+[12.197468] (car_control_tools) StderrLine: {'line': b"/usr/local/lib/python3.10/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[12.198584] (car_control_tools) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[12.244104] (-) TimerEvent: {}
+[12.345524] (-) TimerEvent: {}
+[12.446817] (-) TimerEvent: {}
+[12.548211] (-) TimerEvent: {}
+[12.649586] (-) TimerEvent: {}
+[12.750910] (-) TimerEvent: {}
+[12.852296] (-) TimerEvent: {}
+[12.953702] (-) TimerEvent: {}
+[13.055088] (-) TimerEvent: {}
+[13.160406] (-) TimerEvent: {}
+[13.264371] (-) TimerEvent: {}
+[13.368389] (-) TimerEvent: {}
+[13.472422] (-) TimerEvent: {}
+[13.485722] (car_base_driver) StdoutLine: {'line': b'running egg_info\n'}
+[13.560027] (car_control_tools) StdoutLine: {'line': b'running egg_info\n'}
+[13.572715] (-) TimerEvent: {}
+[13.674202] (-) TimerEvent: {}
+[13.723678] (car_base_driver) StdoutLine: {'line': b'writing ../../build/car_base_driver/car_base_driver.egg-info/PKG-INFO\n'}
+[13.725204] (car_base_driver) StdoutLine: {'line': b'writing dependency_links to ../../build/car_base_driver/car_base_driver.egg-info/dependency_links.txt\n'}
+[13.728911] (car_base_driver) StdoutLine: {'line': b'writing entry points to ../../build/car_base_driver/car_base_driver.egg-info/entry_points.txt\n'}
+[13.730940] (car_base_driver) StdoutLine: {'line': b'writing requirements to ../../build/car_base_driver/car_base_driver.egg-info/requires.txt\n'}
+[13.734643] (car_base_driver) StdoutLine: {'line': b'writing top-level names to ../../build/car_base_driver/car_base_driver.egg-info/top_level.txt\n'}
+[13.776372] (-) TimerEvent: {}
+[13.783953] (car_control_tools) StdoutLine: {'line': b'writing ../../build/car_control_tools/car_control_tools.egg-info/PKG-INFO\n'}
+[13.788382] (car_control_tools) StdoutLine: {'line': b'writing dependency_links to ../../build/car_control_tools/car_control_tools.egg-info/dependency_links.txt\n'}
+[13.789708] (car_control_tools) StdoutLine: {'line': b'writing entry points to ../../build/car_control_tools/car_control_tools.egg-info/entry_points.txt\n'}
+[13.796379] (car_control_tools) StdoutLine: {'line': b'writing requirements to ../../build/car_control_tools/car_control_tools.egg-info/requires.txt\n'}
+[13.797411] (car_control_tools) StdoutLine: {'line': b'writing top-level names to ../../build/car_control_tools/car_control_tools.egg-info/top_level.txt\n'}
+[13.877588] (-) TimerEvent: {}
+[13.980412] (-) TimerEvent: {}
+[14.084382] (-) TimerEvent: {}
+[14.188398] (-) TimerEvent: {}
+[14.190025] (car_base_driver) StdoutLine: {'line': b"reading manifest file '../../build/car_base_driver/car_base_driver.egg-info/SOURCES.txt'\n"}
+[14.201977] (car_base_driver) StdoutLine: {'line': b"writing manifest file '../../build/car_base_driver/car_base_driver.egg-info/SOURCES.txt'\n"}
+[14.203853] (car_base_driver) StdoutLine: {'line': b'running build\n'}
+[14.205525] (car_base_driver) StdoutLine: {'line': b'running build_py\n'}
+[14.206679] (car_base_driver) StdoutLine: {'line': b'copying car_base_driver/__init__.py -> /home/sunrise/Robot_Car/build/car_base_driver/build/lib/car_base_driver\n'}
+[14.212669] (car_base_driver) StdoutLine: {'line': b'copying car_base_driver/kinematics.py -> /home/sunrise/Robot_Car/build/car_base_driver/build/lib/car_base_driver\n'}
+[14.213589] (car_base_driver) StdoutLine: {'line': b'copying car_base_driver/serial_driver.py -> /home/sunrise/Robot_Car/build/car_base_driver/build/lib/car_base_driver\n'}
+[14.214411] (car_base_driver) StdoutLine: {'line': b'running install\n'}
+[14.241774] (car_control_tools) StdoutLine: {'line': b"reading manifest file '../../build/car_control_tools/car_control_tools.egg-info/SOURCES.txt'\n"}
+[14.254723] (car_control_tools) StdoutLine: {'line': b"writing manifest file '../../build/car_control_tools/car_control_tools.egg-info/SOURCES.txt'\n"}
+[14.256485] (car_control_tools) StdoutLine: {'line': b'running build\n'}
+[14.257734] (car_base_driver) StdoutLine: {'line': b'running install_lib\n'}
+[14.260543] (car_control_tools) StdoutLine: {'line': b'running build_py\n'}
+[14.261489] (car_control_tools) StdoutLine: {'line': b'copying car_control_tools/__init__.py -> /home/sunrise/Robot_Car/build/car_control_tools/build/lib/car_control_tools\n'}
+[14.265535] (car_control_tools) StdoutLine: {'line': b'copying car_control_tools/goal_utils.py -> /home/sunrise/Robot_Car/build/car_control_tools/build/lib/car_control_tools\n'}
+[14.266416] (car_control_tools) StdoutLine: {'line': b'copying car_control_tools/terminal_goal.py -> /home/sunrise/Robot_Car/build/car_control_tools/build/lib/car_control_tools\n'}
+[14.267313] (car_control_tools) StdoutLine: {'line': b'running install\n'}
+[14.292433] (-) TimerEvent: {}
+[14.309421] (car_control_tools) StdoutLine: {'line': b'running install_lib\n'}
+[14.396443] (-) TimerEvent: {}
+[14.488729] (car_base_driver) StdoutLine: {'line': b'running install_data\n'}
+[14.490926] (car_base_driver) StdoutLine: {'line': b'copying resource/car_base_driver -> /home/sunrise/Robot_Car/install/car_base_driver/share/ament_index/resource_index/packages\n'}
+[14.492890] (car_base_driver) StdoutLine: {'line': b'copying package.xml -> /home/sunrise/Robot_Car/install/car_base_driver/share/car_base_driver\n'}
+[14.494904] (car_base_driver) StdoutLine: {'line': b'copying launch/base_driver.launch.py -> /home/sunrise/Robot_Car/install/car_base_driver/share/car_base_driver/launch\n'}
+[14.497049] (car_base_driver) StdoutLine: {'line': b'copying config/base_driver.yaml -> /home/sunrise/Robot_Car/install/car_base_driver/share/car_base_driver/config\n'}
+[14.498022] (-) TimerEvent: {}
+[14.499030] (car_base_driver) StdoutLine: {'line': b'running install_egg_info\n'}
+[14.533669] (car_control_tools) StdoutLine: {'line': b'running install_data\n'}
+[14.536735] (car_control_tools) StdoutLine: {'line': b'copying resource/car_control_tools -> /home/sunrise/Robot_Car/install/car_control_tools/share/ament_index/resource_index/packages\n'}
+[14.538968] (car_control_tools) StdoutLine: {'line': b'copying package.xml -> /home/sunrise/Robot_Car/install/car_control_tools/share/car_control_tools\n'}
+[14.540332] (car_control_tools) StdoutLine: {'line': b'running install_egg_info\n'}
+[14.600365] (-) TimerEvent: {}
+[14.704452] (-) TimerEvent: {}
+[14.731448] (car_base_driver) StdoutLine: {'line': b"removing '/home/sunrise/Robot_Car/install/car_base_driver/lib/python3.10/site-packages/car_base_driver-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[14.733289] (car_base_driver) StdoutLine: {'line': b'Copying ../../build/car_base_driver/car_base_driver.egg-info to /home/sunrise/Robot_Car/install/car_base_driver/lib/python3.10/site-packages/car_base_driver-0.0.1-py3.10.egg-info\n'}
+[14.744507] (car_base_driver) StdoutLine: {'line': b'running install_scripts\n'}
+[14.775313] (car_control_tools) StdoutLine: {'line': b"removing '/home/sunrise/Robot_Car/install/car_control_tools/lib/python3.10/site-packages/car_control_tools-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[14.777738] (car_control_tools) StdoutLine: {'line': b'Copying ../../build/car_control_tools/car_control_tools.egg-info to /home/sunrise/Robot_Car/install/car_control_tools/lib/python3.10/site-packages/car_control_tools-0.0.1-py3.10.egg-info\n'}
+[14.785814] (car_control_tools) StdoutLine: {'line': b'running install_scripts\n'}
+[14.804655] (-) TimerEvent: {}
+[14.905778] (-) TimerEvent: {}
+[15.006987] (-) TimerEvent: {}
+[15.108376] (-) TimerEvent: {}
+[15.209446] (-) TimerEvent: {}
+[15.220791] (car_base_driver) StdoutLine: {'line': b'Installing serial_driver script to /home/sunrise/Robot_Car/install/car_base_driver/lib/car_base_driver\n'}
+[15.225622] (car_base_driver) StdoutLine: {'line': b"writing list of installed files to '/home/sunrise/Robot_Car/build/car_base_driver/install.log'\n"}
+[15.249052] (car_control_tools) StdoutLine: {'line': b'Installing terminal_goal script to /home/sunrise/Robot_Car/install/car_control_tools/lib/car_control_tools\n'}
+[15.255857] (car_control_tools) StdoutLine: {'line': b"writing list of installed files to '/home/sunrise/Robot_Car/build/car_control_tools/install.log'\n"}
+[15.309754] (-) TimerEvent: {}
+[15.411067] (-) TimerEvent: {}
+[15.513807] (car_base_driver) CommandEnded: {'returncode': 0}
+[15.517724] (-) TimerEvent: {}
+[15.591543] (car_base_driver) JobEnded: {'identifier': 'car_base_driver', 'rc': 0}
+[15.603105] (car_navigation) JobStarted: {'identifier': 'car_navigation'}
+[15.619098] (-) TimerEvent: {}
+[15.637008] (car_control_tools) CommandEnded: {'returncode': 0}
+[15.713367] (car_control_tools) JobEnded: {'identifier': 'car_control_tools', 'rc': 0}
+[15.719547] (-) TimerEvent: {}
+[15.723552] (car_navigation) JobProgress: {'identifier': 'car_navigation', 'progress': 'cmake'}
+[15.729157] (car_navigation) JobProgress: {'identifier': 'car_navigation', 'progress': 'build'}
+[15.731898] (car_navigation) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sunrise/Robot_Car/build/car_navigation', '--', '-j4', '-l4'], 'cwd': '/home/sunrise/Robot_Car/build/car_navigation', 'env': OrderedDict([('LANGUAGE', 'zh_CN'), ('USER', 'sunrise'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '4017'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sunrise'), ('DESKTOP_SESSION', 'xfce'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sunrise'), ('WINDOWID', '62914563'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/3673,unix/ubuntu:/tmp/.ICE-unix/3673'), ('GDM_LANG', 'zh_CN'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'xfce'), ('XAUTHORITY', '/home/sunrise/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXE7D9bb/agent.4002'), ('ROS_DOMAIN_ID', '0'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/sunrise'), ('AMENT_PREFIX_PATH', '/home/sunrise/Robot_Car/install/car_model_urdf:/home/sunrise/Robot_Car/install/car_base_driver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('GDMSESSION', 'xfce'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('PWD', '/home/sunrise/Robot_Car/build/car_navigation'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/xfce4:/usr/local/share/:/usr/share/:/usr/share'), ('PYTHONPATH', '/home/sunrise/Robot_Car/install/car_base_driver/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sunrise/Robot_Car/install/car_model_urdf:/opt/ros/humble')]), 'shell': False}
+[15.819960] (-) TimerEvent: {}
+[15.921723] (-) TimerEvent: {}
+[15.942616] (car_navigation) CommandEnded: {'returncode': 0}
+[15.947406] (car_navigation) JobProgress: {'identifier': 'car_navigation', 'progress': 'install'}
+[15.949428] (car_navigation) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sunrise/Robot_Car/build/car_navigation'], 'cwd': '/home/sunrise/Robot_Car/build/car_navigation', 'env': OrderedDict([('LANGUAGE', 'zh_CN'), ('USER', 'sunrise'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '4017'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sunrise'), ('DESKTOP_SESSION', 'xfce'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sunrise'), ('WINDOWID', '62914563'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/3673,unix/ubuntu:/tmp/.ICE-unix/3673'), ('GDM_LANG', 'zh_CN'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'xfce'), ('XAUTHORITY', '/home/sunrise/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXE7D9bb/agent.4002'), ('ROS_DOMAIN_ID', '0'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/sunrise'), ('AMENT_PREFIX_PATH', '/home/sunrise/Robot_Car/install/car_model_urdf:/home/sunrise/Robot_Car/install/car_base_driver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('GDMSESSION', 'xfce'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('PWD', '/home/sunrise/Robot_Car/build/car_navigation'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/xfce4:/usr/local/share/:/usr/share/:/usr/share'), ('PYTHONPATH', '/home/sunrise/Robot_Car/install/car_base_driver/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sunrise/Robot_Car/install/car_model_urdf:/opt/ros/humble')]), 'shell': False}
+[15.993392] (car_navigation) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.995142] (car_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/config\n'}
+[15.996722] (car_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/config/nav2_params.yaml\n'}
+[16.000030] (car_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/config/ekf.yaml\n'}
+[16.002649] (car_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/config/slam_toolbox.yaml\n'}
+[16.003696] (car_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/launch\n'}
+[16.004826] (car_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/launch/robot_bringup.launch.py\n'}
+[16.006980] (car_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/launch/mapping.launch.py\n'}
+[16.012228] (car_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/launch/navigation.launch.py\n'}
+[16.014638] (car_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/ament_index/resource_index/package_run_dependencies/car_navigation\n'}
+[16.015623] (car_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/ament_index/resource_index/parent_prefix_path/car_navigation\n'}
+[16.016745] (car_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/environment/ament_prefix_path.sh\n'}
+[16.017784] (car_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/environment/ament_prefix_path.dsv\n'}
+[16.018839] (car_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/environment/path.sh\n'}
+[16.019848] (car_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/environment/path.dsv\n'}
+[16.020929] (car_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/local_setup.bash\n'}
+[16.021923] (-) TimerEvent: {}
+[16.022926] (car_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/local_setup.sh\n'}
+[16.023934] (car_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/local_setup.zsh\n'}
+[16.025365] (car_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/local_setup.dsv\n'}
+[16.026281] (car_navigation) StdoutLine: {'line': b'-- Installing: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/package.dsv\n'}
+[16.038504] (car_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/ament_index/resource_index/packages/car_navigation\n'}
+[16.039399] (car_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/cmake/car_navigationConfig.cmake\n'}
+[16.040529] (car_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/cmake/car_navigationConfig-version.cmake\n'}
+[16.041505] (car_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/package.xml\n'}
+[16.042434] (car_navigation) CommandEnded: {'returncode': 0}
+[16.122543] (-) TimerEvent: {}
+[16.146069] (car_navigation) JobEnded: {'identifier': 'car_navigation', 'rc': 0}
+[16.152256] (-) EventReactorShutdown: {}

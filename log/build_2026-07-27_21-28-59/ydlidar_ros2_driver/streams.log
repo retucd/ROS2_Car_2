@@ -1,0 +1,49 @@
+[1.657s] Invoking command in '/home/sunrise/Robot_Car/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/Robot_Car/install/car_control_tools:/home/sunrise/Robot_Car/install/car_base_driver:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/Robot_Car/build/ydlidar_ros2_driver -- -j4 -l4
+[3.260s] [ 50%] Built target ydlidar_ros2_driver_client
+[3.262s] [100%] Built target ydlidar_ros2_driver_node
+[3.314s] Invoked command in '/home/sunrise/Robot_Car/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/Robot_Car/install/car_control_tools:/home/sunrise/Robot_Car/install/car_base_driver:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/Robot_Car/build/ydlidar_ros2_driver -- -j4 -l4
+[3.323s] Invoking command in '/home/sunrise/Robot_Car/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/Robot_Car/install/car_control_tools:/home/sunrise/Robot_Car/install/car_base_driver:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/Robot_Car/build/ydlidar_ros2_driver
+[3.414s] -- Install configuration: ""
+[3.416s] -- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node
+[3.418s] -- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client
+[3.419s] -- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch
+[3.420s] -- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch_view.py
+[3.423s] -- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar.py
+[3.424s] -- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py
+[3.426s] -- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params
+[3.427s] -- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G6.yaml
+[3.428s] -- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/sdm15.yaml
+[3.430s] -- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/GS2.yaml
+[3.431s] -- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TG.yaml
+[3.432s] -- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/Tmini.yaml
+[3.433s] -- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4.yaml
+[3.434s] -- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4-Pro.yaml
+[3.435s] -- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/Tmini-Plus-SH.yaml
+[3.437s] -- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/GS5.yaml
+[3.439s] -- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G2.yaml
+[3.440s] -- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X2.yaml
+[3.441s] -- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TEA.yaml
+[3.442s] -- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml
+[3.444s] -- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G4.yaml
+[3.446s] -- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X3.yaml
+[3.447s] -- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G1.yaml
+[3.448s] -- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup
+[3.449s] -- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup/initenv.sh
+[3.450s] -- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config
+[3.452s] -- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar.rviz
+[3.453s] -- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ament_index/resource_index/package_run_dependencies/ydlidar_ros2_driver
+[3.454s] -- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ament_index/resource_index/parent_prefix_path/ydlidar_ros2_driver
+[3.455s] -- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.sh
+[3.457s] -- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.dsv
+[3.458s] -- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.sh
+[3.459s] -- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.dsv
+[3.460s] -- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.bash
+[3.467s] -- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.sh
+[3.468s] -- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.zsh
+[3.469s] -- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.dsv
+[3.470s] -- Installing: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv
+[3.474s] -- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ament_index/resource_index/packages/ydlidar_ros2_driver
+[3.476s] -- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig.cmake
+[3.477s] -- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig-version.cmake
+[3.478s] -- Up-to-date: /home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.xml
+[3.619s] Invoked command in '/home/sunrise/Robot_Car/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/Robot_Car/install/car_control_tools:/home/sunrise/Robot_Car/install/car_base_driver:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/Robot_Car/build/ydlidar_ros2_driver

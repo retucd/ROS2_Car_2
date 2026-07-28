@@ -1,0 +1,30 @@
+[8.694s] Invoking command in '/home/sunrise/Robot_Car/src/car_base_driver': PYTHONPATH=/home/sunrise/Robot_Car/build/car_base_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/Robot_Car/install/car_base_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/car_base_driver build --build-base /home/sunrise/Robot_Car/build/car_base_driver/build install --record /home/sunrise/Robot_Car/build/car_base_driver/install.log --single-version-externally-managed install_data
+[10.083s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[10.084s]   warnings.warn(msg)
+[11.154s] running egg_info
+[11.321s] writing ../../build/car_base_driver/car_base_driver.egg-info/PKG-INFO
+[11.324s] writing dependency_links to ../../build/car_base_driver/car_base_driver.egg-info/dependency_links.txt
+[11.326s] writing entry points to ../../build/car_base_driver/car_base_driver.egg-info/entry_points.txt
+[11.329s] writing requirements to ../../build/car_base_driver/car_base_driver.egg-info/requires.txt
+[11.330s] writing top-level names to ../../build/car_base_driver/car_base_driver.egg-info/top_level.txt
+[11.691s] reading manifest file '../../build/car_base_driver/car_base_driver.egg-info/SOURCES.txt'
+[11.702s] writing manifest file '../../build/car_base_driver/car_base_driver.egg-info/SOURCES.txt'
+[11.705s] running build
+[11.707s] running build_py
+[11.708s] copying car_base_driver/__init__.py -> /home/sunrise/Robot_Car/build/car_base_driver/build/lib/car_base_driver
+[11.709s] copying car_base_driver/kinematics.py -> /home/sunrise/Robot_Car/build/car_base_driver/build/lib/car_base_driver
+[11.709s] copying car_base_driver/serial_driver.py -> /home/sunrise/Robot_Car/build/car_base_driver/build/lib/car_base_driver
+[11.711s] running install
+[11.752s] running install_lib
+[11.926s] running install_data
+[11.928s] copying resource/car_base_driver -> /home/sunrise/Robot_Car/install/car_base_driver/share/ament_index/resource_index/packages
+[11.929s] copying package.xml -> /home/sunrise/Robot_Car/install/car_base_driver/share/car_base_driver
+[11.931s] copying launch/base_driver.launch.py -> /home/sunrise/Robot_Car/install/car_base_driver/share/car_base_driver/launch
+[11.933s] copying config/base_driver.yaml -> /home/sunrise/Robot_Car/install/car_base_driver/share/car_base_driver/config
+[11.935s] running install_egg_info
+[12.122s] removing '/home/sunrise/Robot_Car/install/car_base_driver/lib/python3.10/site-packages/car_base_driver-0.0.1-py3.10.egg-info' (and everything under it)
+[12.124s] Copying ../../build/car_base_driver/car_base_driver.egg-info to /home/sunrise/Robot_Car/install/car_base_driver/lib/python3.10/site-packages/car_base_driver-0.0.1-py3.10.egg-info
+[12.132s] running install_scripts
+[12.490s] Installing serial_driver script to /home/sunrise/Robot_Car/install/car_base_driver/lib/car_base_driver
+[12.499s] writing list of installed files to '/home/sunrise/Robot_Car/build/car_base_driver/install.log'
+[12.744s] Invoked command in '/home/sunrise/Robot_Car/src/car_base_driver' returned '0': PYTHONPATH=/home/sunrise/Robot_Car/build/car_base_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/Robot_Car/install/car_base_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/car_base_driver build --build-base /home/sunrise/Robot_Car/build/car_base_driver/build install --record /home/sunrise/Robot_Car/build/car_base_driver/install.log --single-version-externally-managed install_data

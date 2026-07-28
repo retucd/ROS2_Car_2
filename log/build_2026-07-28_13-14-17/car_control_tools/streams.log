@@ -1,0 +1,28 @@
+[13.100s] Invoking command in '/home/sunrise/Robot_Car/src/car_control_tools': PYTHONPATH=/home/sunrise/Robot_Car/build/car_control_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/Robot_Car/install/car_control_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/car_control_tools build --build-base /home/sunrise/Robot_Car/build/car_control_tools/build install --record /home/sunrise/Robot_Car/build/car_control_tools/install.log --single-version-externally-managed install_data
+[15.108s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[15.109s]   warnings.warn(msg)
+[16.749s] running egg_info
+[17.091s] writing ../../build/car_control_tools/car_control_tools.egg-info/PKG-INFO
+[17.101s] writing dependency_links to ../../build/car_control_tools/car_control_tools.egg-info/dependency_links.txt
+[17.108s] writing entry points to ../../build/car_control_tools/car_control_tools.egg-info/entry_points.txt
+[17.116s] writing requirements to ../../build/car_control_tools/car_control_tools.egg-info/requires.txt
+[17.122s] writing top-level names to ../../build/car_control_tools/car_control_tools.egg-info/top_level.txt
+[17.755s] reading manifest file '../../build/car_control_tools/car_control_tools.egg-info/SOURCES.txt'
+[17.786s] writing manifest file '../../build/car_control_tools/car_control_tools.egg-info/SOURCES.txt'
+[17.795s] running build
+[17.801s] running build_py
+[17.805s] copying car_control_tools/__init__.py -> /home/sunrise/Robot_Car/build/car_control_tools/build/lib/car_control_tools
+[17.811s] copying car_control_tools/goal_utils.py -> /home/sunrise/Robot_Car/build/car_control_tools/build/lib/car_control_tools
+[17.815s] copying car_control_tools/terminal_goal.py -> /home/sunrise/Robot_Car/build/car_control_tools/build/lib/car_control_tools
+[17.823s] running install
+[17.882s] running install_lib
+[18.206s] running install_data
+[18.220s] copying resource/car_control_tools -> /home/sunrise/Robot_Car/install/car_control_tools/share/ament_index/resource_index/packages
+[18.221s] copying package.xml -> /home/sunrise/Robot_Car/install/car_control_tools/share/car_control_tools
+[18.221s] running install_egg_info
+[18.668s] removing '/home/sunrise/Robot_Car/install/car_control_tools/lib/python3.10/site-packages/car_control_tools-0.0.1-py3.10.egg-info' (and everything under it)
+[18.670s] Copying ../../build/car_control_tools/car_control_tools.egg-info to /home/sunrise/Robot_Car/install/car_control_tools/lib/python3.10/site-packages/car_control_tools-0.0.1-py3.10.egg-info
+[18.680s] running install_scripts
+[19.276s] Installing terminal_goal script to /home/sunrise/Robot_Car/install/car_control_tools/lib/car_control_tools
+[19.285s] writing list of installed files to '/home/sunrise/Robot_Car/build/car_control_tools/install.log'
+[19.642s] Invoked command in '/home/sunrise/Robot_Car/src/car_control_tools' returned '0': PYTHONPATH=/home/sunrise/Robot_Car/build/car_control_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/Robot_Car/install/car_control_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/car_control_tools build --build-base /home/sunrise/Robot_Car/build/car_control_tools/build install --record /home/sunrise/Robot_Car/build/car_control_tools/install.log --single-version-externally-managed install_data

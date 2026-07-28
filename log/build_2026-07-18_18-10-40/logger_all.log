@@ -1,0 +1,365 @@
+[0.691s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.691s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f94b49300>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f94b48d30>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f94b48d30>>)
+[0.956s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.956s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.957s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.957s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.957s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.957s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.958s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sunrise/Robot_Car'
+[0.958s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.959s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.960s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.061s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.061s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.061s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.062s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.062s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.063s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.063s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.065s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.066s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.066s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.067s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.067s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.067s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.068s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.068s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.068s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.068s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.069s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.069s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.069s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.070s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.070s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.070s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.070s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.071s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_base_driver) by extensions ['ignore', 'ignore_ament_install']
+[1.071s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_base_driver) by extension 'ignore'
+[1.072s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_base_driver) by extension 'ignore_ament_install'
+[1.072s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_base_driver) by extensions ['colcon_pkg']
+[1.072s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_base_driver) by extension 'colcon_pkg'
+[1.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_base_driver) by extensions ['colcon_meta']
+[1.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_base_driver) by extension 'colcon_meta'
+[1.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_base_driver) by extensions ['ros']
+[1.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_base_driver) by extension 'ros'
+[1.089s] DEBUG:colcon.colcon_core.package_identification:Package 'src/car_base_driver' with type 'ros.ament_python' and name 'car_base_driver'
+[1.090s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_control_tools) by extensions ['ignore', 'ignore_ament_install']
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_control_tools) by extension 'ignore'
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_control_tools) by extension 'ignore_ament_install'
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_control_tools) by extensions ['colcon_pkg']
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_control_tools) by extension 'colcon_pkg'
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_control_tools) by extensions ['colcon_meta']
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_control_tools) by extension 'colcon_meta'
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_control_tools) by extensions ['ros']
+[1.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_control_tools) by extension 'ros'
+[1.099s] DEBUG:colcon.colcon_core.package_identification:Package 'src/car_control_tools' with type 'ros.ament_python' and name 'car_control_tools'
+[1.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_model_urdf) by extensions ['ignore', 'ignore_ament_install']
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_model_urdf) by extension 'ignore'
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_model_urdf) by extension 'ignore_ament_install'
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_model_urdf) by extensions ['colcon_pkg']
+[1.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_model_urdf) by extension 'colcon_pkg'
+[1.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_model_urdf) by extensions ['colcon_meta']
+[1.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_model_urdf) by extension 'colcon_meta'
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_model_urdf) by extensions ['ros']
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_model_urdf) by extension 'ros'
+[1.107s] DEBUG:colcon.colcon_core.package_identification:Package 'src/car_model_urdf' with type 'ros.ament_cmake' and name 'car_model_urdf'
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_navigation) by extensions ['ignore', 'ignore_ament_install']
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_navigation) by extension 'ignore'
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_navigation) by extension 'ignore_ament_install'
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_navigation) by extensions ['colcon_pkg']
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_navigation) by extension 'colcon_pkg'
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_navigation) by extensions ['colcon_meta']
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_navigation) by extension 'colcon_meta'
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_navigation) by extensions ['ros']
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_navigation) by extension 'ros'
+[1.114s] DEBUG:colcon.colcon_core.package_identification:Package 'src/car_navigation' with type 'ros.ament_cmake' and name 'car_navigation'
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver-humble) by extensions ['ignore', 'ignore_ament_install']
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver-humble) by extension 'ignore'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver-humble) by extension 'ignore_ament_install'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver-humble) by extensions ['colcon_pkg']
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver-humble) by extension 'colcon_pkg'
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver-humble) by extensions ['colcon_meta']
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver-humble) by extension 'colcon_meta'
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver-humble) by extensions ['ros']
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2_driver-humble) by extension 'ros'
+[1.122s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ydlidar_ros2_driver-humble' with type 'ros.ament_cmake' and name 'ydlidar_ros2_driver'
+[1.122s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.274s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 361 installed packages in /opt/ros/humble
+[1.289s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.646s] Level 5:colcon.colcon_core.verb:set package 'car_base_driver' build argument 'cmake_args' from command line to 'None'
+[1.647s] Level 5:colcon.colcon_core.verb:set package 'car_base_driver' build argument 'cmake_target' from command line to 'None'
+[1.647s] Level 5:colcon.colcon_core.verb:set package 'car_base_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.647s] Level 5:colcon.colcon_core.verb:set package 'car_base_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[1.647s] Level 5:colcon.colcon_core.verb:set package 'car_base_driver' build argument 'cmake_clean_first' from command line to 'False'
+[1.647s] Level 5:colcon.colcon_core.verb:set package 'car_base_driver' build argument 'cmake_force_configure' from command line to 'False'
+[1.647s] Level 5:colcon.colcon_core.verb:set package 'car_base_driver' build argument 'ament_cmake_args' from command line to 'None'
+[1.648s] Level 5:colcon.colcon_core.verb:set package 'car_base_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[1.648s] Level 5:colcon.colcon_core.verb:set package 'car_base_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.648s] DEBUG:colcon.colcon_core.verb:Building package 'car_base_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sunrise/Robot_Car/build/car_base_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sunrise/Robot_Car/install/car_base_driver', 'merge_install': False, 'path': '/home/sunrise/Robot_Car/src/car_base_driver', 'symlink_install': False, 'test_result_base': None}
+[1.651s] Level 5:colcon.colcon_core.verb:set package 'car_control_tools' build argument 'cmake_args' from command line to 'None'
+[1.651s] Level 5:colcon.colcon_core.verb:set package 'car_control_tools' build argument 'cmake_target' from command line to 'None'
+[1.651s] Level 5:colcon.colcon_core.verb:set package 'car_control_tools' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.651s] Level 5:colcon.colcon_core.verb:set package 'car_control_tools' build argument 'cmake_clean_cache' from command line to 'False'
+[1.651s] Level 5:colcon.colcon_core.verb:set package 'car_control_tools' build argument 'cmake_clean_first' from command line to 'False'
+[1.652s] Level 5:colcon.colcon_core.verb:set package 'car_control_tools' build argument 'cmake_force_configure' from command line to 'False'
+[1.652s] Level 5:colcon.colcon_core.verb:set package 'car_control_tools' build argument 'ament_cmake_args' from command line to 'None'
+[1.652s] Level 5:colcon.colcon_core.verb:set package 'car_control_tools' build argument 'catkin_cmake_args' from command line to 'None'
+[1.652s] Level 5:colcon.colcon_core.verb:set package 'car_control_tools' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.652s] DEBUG:colcon.colcon_core.verb:Building package 'car_control_tools' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sunrise/Robot_Car/build/car_control_tools', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sunrise/Robot_Car/install/car_control_tools', 'merge_install': False, 'path': '/home/sunrise/Robot_Car/src/car_control_tools', 'symlink_install': False, 'test_result_base': None}
+[1.655s] Level 5:colcon.colcon_core.verb:set package 'car_model_urdf' build argument 'cmake_args' from command line to 'None'
+[1.656s] Level 5:colcon.colcon_core.verb:set package 'car_model_urdf' build argument 'cmake_target' from command line to 'None'
+[1.656s] Level 5:colcon.colcon_core.verb:set package 'car_model_urdf' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.656s] Level 5:colcon.colcon_core.verb:set package 'car_model_urdf' build argument 'cmake_clean_cache' from command line to 'False'
+[1.656s] Level 5:colcon.colcon_core.verb:set package 'car_model_urdf' build argument 'cmake_clean_first' from command line to 'False'
+[1.656s] Level 5:colcon.colcon_core.verb:set package 'car_model_urdf' build argument 'cmake_force_configure' from command line to 'False'
+[1.656s] Level 5:colcon.colcon_core.verb:set package 'car_model_urdf' build argument 'ament_cmake_args' from command line to 'None'
+[1.657s] Level 5:colcon.colcon_core.verb:set package 'car_model_urdf' build argument 'catkin_cmake_args' from command line to 'None'
+[1.657s] Level 5:colcon.colcon_core.verb:set package 'car_model_urdf' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.657s] DEBUG:colcon.colcon_core.verb:Building package 'car_model_urdf' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sunrise/Robot_Car/build/car_model_urdf', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sunrise/Robot_Car/install/car_model_urdf', 'merge_install': False, 'path': '/home/sunrise/Robot_Car/src/car_model_urdf', 'symlink_install': False, 'test_result_base': None}
+[1.660s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_args' from command line to 'None'
+[1.660s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target' from command line to 'None'
+[1.661s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.661s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[1.661s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_first' from command line to 'False'
+[1.661s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_force_configure' from command line to 'False'
+[1.661s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'ament_cmake_args' from command line to 'None'
+[1.661s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[1.662s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.662s] DEBUG:colcon.colcon_core.verb:Building package 'ydlidar_ros2_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sunrise/Robot_Car/build/ydlidar_ros2_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sunrise/Robot_Car/install/ydlidar_ros2_driver', 'merge_install': False, 'path': '/home/sunrise/Robot_Car/src/ydlidar_ros2_driver-humble', 'symlink_install': False, 'test_result_base': None}
+[1.665s] Level 5:colcon.colcon_core.verb:set package 'car_navigation' build argument 'cmake_args' from command line to 'None'
+[1.665s] Level 5:colcon.colcon_core.verb:set package 'car_navigation' build argument 'cmake_target' from command line to 'None'
+[1.665s] Level 5:colcon.colcon_core.verb:set package 'car_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.665s] Level 5:colcon.colcon_core.verb:set package 'car_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[1.665s] Level 5:colcon.colcon_core.verb:set package 'car_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[1.666s] Level 5:colcon.colcon_core.verb:set package 'car_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[1.666s] Level 5:colcon.colcon_core.verb:set package 'car_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[1.666s] Level 5:colcon.colcon_core.verb:set package 'car_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[1.666s] Level 5:colcon.colcon_core.verb:set package 'car_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.666s] DEBUG:colcon.colcon_core.verb:Building package 'car_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sunrise/Robot_Car/build/car_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sunrise/Robot_Car/install/car_navigation', 'merge_install': False, 'path': '/home/sunrise/Robot_Car/src/car_navigation', 'symlink_install': False, 'test_result_base': None}
+[1.667s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.672s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.674s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sunrise/Robot_Car/src/car_base_driver' with build type 'ament_python'
+[1.675s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_base_driver', 'ament_prefix_path')
+[1.688s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.690s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/Robot_Car/install/car_base_driver/share/car_base_driver/hook/ament_prefix_path.ps1'
+[1.694s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunrise/Robot_Car/install/car_base_driver/share/car_base_driver/hook/ament_prefix_path.dsv'
+[1.697s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/Robot_Car/install/car_base_driver/share/car_base_driver/hook/ament_prefix_path.sh'
+[1.703s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.703s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.723s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sunrise/Robot_Car/src/car_model_urdf' with build type 'ament_cmake'
+[1.724s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sunrise/Robot_Car/src/car_model_urdf'
+[1.726s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.727s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.748s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sunrise/Robot_Car/src/car_control_tools' with build type 'ament_python'
+[1.750s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_control_tools', 'ament_prefix_path')
+[1.753s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/Robot_Car/install/car_control_tools/share/car_control_tools/hook/ament_prefix_path.ps1'
+[1.759s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunrise/Robot_Car/install/car_control_tools/share/car_control_tools/hook/ament_prefix_path.dsv'
+[1.763s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/Robot_Car/install/car_control_tools/share/car_control_tools/hook/ament_prefix_path.sh'
+[1.769s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.769s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.791s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sunrise/Robot_Car/src/ydlidar_ros2_driver-humble' with build type 'ament_cmake'
+[1.793s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sunrise/Robot_Car/src/ydlidar_ros2_driver-humble'
+[1.795s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.796s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.383s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sunrise/Robot_Car/src/car_base_driver'
+[3.385s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.385s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.416s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunrise/Robot_Car/build/car_model_urdf': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sunrise/Robot_Car/build/car_model_urdf -- -j4 -l4
+[4.950s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sunrise/Robot_Car/src/car_control_tools'
+[4.952s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.952s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.991s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunrise/Robot_Car/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sunrise/Robot_Car/build/ydlidar_ros2_driver -- -j4 -l4
+[5.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunrise/Robot_Car/build/car_model_urdf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sunrise/Robot_Car/build/car_model_urdf -- -j4 -l4
+[5.043s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunrise/Robot_Car/build/car_model_urdf': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sunrise/Robot_Car/build/car_model_urdf
+[5.118s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(car_model_urdf)
+[5.157s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunrise/Robot_Car/build/car_model_urdf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sunrise/Robot_Car/build/car_model_urdf
+[5.166s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/Robot_Car/install/car_model_urdf' for CMake module files
+[5.170s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/Robot_Car/install/car_model_urdf' for CMake config files
+[5.173s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_model_urdf', 'cmake_prefix_path')
+[5.175s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/hook/cmake_prefix_path.ps1'
+[5.179s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/hook/cmake_prefix_path.dsv'
+[5.182s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/hook/cmake_prefix_path.sh'
+[5.188s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/Robot_Car/install/car_model_urdf/bin'
+[5.188s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/Robot_Car/install/car_model_urdf/lib/pkgconfig/car_model_urdf.pc'
+[5.191s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/Robot_Car/install/car_model_urdf/lib/python3.10/site-packages'
+[5.194s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/Robot_Car/install/car_model_urdf/bin'
+[5.197s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/package.ps1'
+[5.209s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/package.dsv'
+[5.214s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/package.sh'
+[5.223s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/package.bash'
+[5.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/package.zsh'
+[5.235s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sunrise/Robot_Car/install/car_model_urdf/share/colcon-core/packages/car_model_urdf)
+[5.241s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(car_model_urdf)
+[5.245s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/Robot_Car/install/car_model_urdf' for CMake module files
+[5.249s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/Robot_Car/install/car_model_urdf' for CMake config files
+[5.250s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_model_urdf', 'cmake_prefix_path')
+[5.253s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/hook/cmake_prefix_path.ps1'
+[5.258s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/hook/cmake_prefix_path.dsv'
+[5.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/hook/cmake_prefix_path.sh'
+[5.265s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/Robot_Car/install/car_model_urdf/bin'
+[5.266s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/Robot_Car/install/car_model_urdf/lib/pkgconfig/car_model_urdf.pc'
+[5.269s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/Robot_Car/install/car_model_urdf/lib/python3.10/site-packages'
+[5.272s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/Robot_Car/install/car_model_urdf/bin'
+[5.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/package.ps1'
+[5.281s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/package.dsv'
+[5.287s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/package.sh'
+[5.290s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/package.bash'
+[5.294s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/package.zsh'
+[5.297s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sunrise/Robot_Car/install/car_model_urdf/share/colcon-core/packages/car_model_urdf)
+[5.459s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunrise/Robot_Car/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sunrise/Robot_Car/build/ydlidar_ros2_driver -- -j4 -l4
+[5.468s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunrise/Robot_Car/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sunrise/Robot_Car/build/ydlidar_ros2_driver
+[5.540s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_ros2_driver)
+[5.542s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/Robot_Car/install/ydlidar_ros2_driver' for CMake module files
+[5.548s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/Robot_Car/install/ydlidar_ros2_driver' for CMake config files
+[5.551s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'cmake_prefix_path')
+[5.554s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.ps1'
+[5.561s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.dsv'
+[5.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.sh'
+[5.574s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/Robot_Car/install/ydlidar_ros2_driver/lib'
+[5.575s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/Robot_Car/install/ydlidar_ros2_driver/bin'
+[5.576s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/Robot_Car/install/ydlidar_ros2_driver/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[5.578s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/Robot_Car/install/ydlidar_ros2_driver/lib/python3.10/site-packages'
+[5.583s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/Robot_Car/install/ydlidar_ros2_driver/bin'
+[5.586s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.ps1'
+[5.593s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv'
+[5.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.sh'
+[5.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.bash'
+[5.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.zsh'
+[5.619s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/colcon-core/packages/ydlidar_ros2_driver)
+[5.624s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_ros2_driver)
+[5.626s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/Robot_Car/install/ydlidar_ros2_driver' for CMake module files
+[5.635s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunrise/Robot_Car/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sunrise/Robot_Car/build/ydlidar_ros2_driver
+[5.636s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/Robot_Car/install/ydlidar_ros2_driver' for CMake config files
+[5.638s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'cmake_prefix_path')
+[5.640s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.ps1'
+[5.644s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.dsv'
+[5.647s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.sh'
+[5.653s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/Robot_Car/install/ydlidar_ros2_driver/lib'
+[5.654s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/Robot_Car/install/ydlidar_ros2_driver/bin'
+[5.655s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/Robot_Car/install/ydlidar_ros2_driver/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[5.658s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/Robot_Car/install/ydlidar_ros2_driver/lib/python3.10/site-packages'
+[5.662s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/Robot_Car/install/ydlidar_ros2_driver/bin'
+[5.664s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.ps1'
+[5.670s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv'
+[5.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.sh'
+[5.678s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.bash'
+[5.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.zsh'
+[5.687s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sunrise/Robot_Car/install/ydlidar_ros2_driver/share/colcon-core/packages/ydlidar_ros2_driver)
+[8.925s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunrise/Robot_Car/src/car_control_tools': PYTHONPATH=/home/sunrise/Robot_Car/build/car_control_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/Robot_Car/install/car_control_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/car_control_tools build --build-base /home/sunrise/Robot_Car/build/car_control_tools/build install --record /home/sunrise/Robot_Car/build/car_control_tools/install.log --single-version-externally-managed install_data
+[8.953s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunrise/Robot_Car/src/car_base_driver': PYTHONPATH=/home/sunrise/Robot_Car/build/car_base_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/Robot_Car/install/car_base_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/car_base_driver build --build-base /home/sunrise/Robot_Car/build/car_base_driver/build install --record /home/sunrise/Robot_Car/build/car_base_driver/install.log --single-version-externally-managed install_data
+[12.480s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/Robot_Car/install/car_control_tools' for CMake module files
+[12.484s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunrise/Robot_Car/src/car_control_tools' returned '0': PYTHONPATH=/home/sunrise/Robot_Car/build/car_control_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/Robot_Car/install/car_control_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/car_control_tools build --build-base /home/sunrise/Robot_Car/build/car_control_tools/build install --record /home/sunrise/Robot_Car/build/car_control_tools/install.log --single-version-externally-managed install_data
+[12.486s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/Robot_Car/install/car_control_tools' for CMake config files
+[12.489s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/Robot_Car/install/car_control_tools/lib'
+[12.490s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/Robot_Car/install/car_control_tools/bin'
+[12.490s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/Robot_Car/install/car_control_tools/lib/pkgconfig/car_control_tools.pc'
+[12.492s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/Robot_Car/install/car_control_tools/lib/python3.10/site-packages'
+[12.493s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_control_tools', 'pythonpath')
+[12.494s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/Robot_Car/install/car_control_tools/share/car_control_tools/hook/pythonpath.ps1'
+[12.497s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunrise/Robot_Car/install/car_control_tools/share/car_control_tools/hook/pythonpath.dsv'
+[12.500s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/Robot_Car/install/car_control_tools/share/car_control_tools/hook/pythonpath.sh'
+[12.504s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/Robot_Car/install/car_control_tools/bin'
+[12.505s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(car_control_tools)
+[12.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/Robot_Car/install/car_control_tools/share/car_control_tools/package.ps1'
+[12.511s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sunrise/Robot_Car/install/car_control_tools/share/car_control_tools/package.dsv'
+[12.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/Robot_Car/install/car_control_tools/share/car_control_tools/package.sh'
+[12.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/Robot_Car/install/car_control_tools/share/car_control_tools/package.bash'
+[12.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/Robot_Car/install/car_control_tools/share/car_control_tools/package.zsh'
+[12.530s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sunrise/Robot_Car/install/car_control_tools/share/colcon-core/packages/car_control_tools)
+[12.537s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/Robot_Car/install/car_base_driver' for CMake module files
+[12.541s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunrise/Robot_Car/src/car_base_driver' returned '0': PYTHONPATH=/home/sunrise/Robot_Car/build/car_base_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/Robot_Car/install/car_base_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/car_base_driver build --build-base /home/sunrise/Robot_Car/build/car_base_driver/build install --record /home/sunrise/Robot_Car/build/car_base_driver/install.log --single-version-externally-managed install_data
+[12.542s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/Robot_Car/install/car_base_driver' for CMake config files
+[12.545s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/Robot_Car/install/car_base_driver/lib'
+[12.546s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/Robot_Car/install/car_base_driver/bin'
+[12.546s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/Robot_Car/install/car_base_driver/lib/pkgconfig/car_base_driver.pc'
+[12.548s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/Robot_Car/install/car_base_driver/lib/python3.10/site-packages'
+[12.549s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_base_driver', 'pythonpath')
+[12.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/Robot_Car/install/car_base_driver/share/car_base_driver/hook/pythonpath.ps1'
+[12.556s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunrise/Robot_Car/install/car_base_driver/share/car_base_driver/hook/pythonpath.dsv'
+[12.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/Robot_Car/install/car_base_driver/share/car_base_driver/hook/pythonpath.sh'
+[12.567s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/Robot_Car/install/car_base_driver/bin'
+[12.568s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(car_base_driver)
+[12.571s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/Robot_Car/install/car_base_driver/share/car_base_driver/package.ps1'
+[12.575s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sunrise/Robot_Car/install/car_base_driver/share/car_base_driver/package.dsv'
+[12.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/Robot_Car/install/car_base_driver/share/car_base_driver/package.sh'
+[12.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/Robot_Car/install/car_base_driver/share/car_base_driver/package.bash'
+[12.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/Robot_Car/install/car_base_driver/share/car_base_driver/package.zsh'
+[12.588s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sunrise/Robot_Car/install/car_base_driver/share/colcon-core/packages/car_base_driver)
+[12.590s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sunrise/Robot_Car/src/car_navigation' with build type 'ament_cmake'
+[12.591s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sunrise/Robot_Car/src/car_navigation'
+[12.593s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.594s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.663s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunrise/Robot_Car/build/car_navigation': AMENT_PREFIX_PATH=/home/sunrise/Robot_Car/install/car_model_urdf:/home/sunrise/Robot_Car/install/car_base_driver:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/Robot_Car/install/car_model_urdf:/opt/ros/humble PYTHONPATH=/home/sunrise/Robot_Car/install/car_base_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sunrise/Robot_Car/build/car_navigation -- -j4 -l4
+[12.810s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunrise/Robot_Car/build/car_navigation' returned '0': AMENT_PREFIX_PATH=/home/sunrise/Robot_Car/install/car_model_urdf:/home/sunrise/Robot_Car/install/car_base_driver:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/Robot_Car/install/car_model_urdf:/opt/ros/humble PYTHONPATH=/home/sunrise/Robot_Car/install/car_base_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sunrise/Robot_Car/build/car_navigation -- -j4 -l4
+[12.818s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunrise/Robot_Car/build/car_navigation': AMENT_PREFIX_PATH=/home/sunrise/Robot_Car/install/car_model_urdf:/home/sunrise/Robot_Car/install/car_base_driver:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/Robot_Car/install/car_model_urdf:/opt/ros/humble PYTHONPATH=/home/sunrise/Robot_Car/install/car_base_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sunrise/Robot_Car/build/car_navigation
+[12.861s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(car_navigation)
+[12.863s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/Robot_Car/install/car_navigation' for CMake module files
+[12.872s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunrise/Robot_Car/build/car_navigation' returned '0': AMENT_PREFIX_PATH=/home/sunrise/Robot_Car/install/car_model_urdf:/home/sunrise/Robot_Car/install/car_base_driver:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/Robot_Car/install/car_model_urdf:/opt/ros/humble PYTHONPATH=/home/sunrise/Robot_Car/install/car_base_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sunrise/Robot_Car/build/car_navigation
+[12.873s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/Robot_Car/install/car_navigation' for CMake config files
+[12.874s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_navigation', 'cmake_prefix_path')
+[12.876s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/hook/cmake_prefix_path.ps1'
+[12.878s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/hook/cmake_prefix_path.dsv'
+[12.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/hook/cmake_prefix_path.sh'
+[12.884s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/Robot_Car/install/car_navigation/bin'
+[12.885s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/Robot_Car/install/car_navigation/lib/pkgconfig/car_navigation.pc'
+[12.886s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/Robot_Car/install/car_navigation/lib/python3.10/site-packages'
+[12.889s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/Robot_Car/install/car_navigation/bin'
+[12.892s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/package.ps1'
+[12.895s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/package.dsv'
+[12.899s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/package.sh'
+[12.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/package.bash'
+[12.905s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/package.zsh'
+[12.907s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sunrise/Robot_Car/install/car_navigation/share/colcon-core/packages/car_navigation)
+[12.911s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(car_navigation)
+[12.913s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/Robot_Car/install/car_navigation' for CMake module files
+[12.917s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/Robot_Car/install/car_navigation' for CMake config files
+[12.918s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_navigation', 'cmake_prefix_path')
+[12.920s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/hook/cmake_prefix_path.ps1'
+[12.925s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/hook/cmake_prefix_path.dsv'
+[12.929s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/hook/cmake_prefix_path.sh'
+[12.934s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/Robot_Car/install/car_navigation/bin'
+[12.934s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/Robot_Car/install/car_navigation/lib/pkgconfig/car_navigation.pc'
+[12.936s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/Robot_Car/install/car_navigation/lib/python3.10/site-packages'
+[12.939s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/Robot_Car/install/car_navigation/bin'
+[12.941s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/package.ps1'
+[12.945s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/package.dsv'
+[12.950s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/package.sh'
+[12.953s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/package.bash'
+[12.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/package.zsh'
+[12.959s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sunrise/Robot_Car/install/car_navigation/share/colcon-core/packages/car_navigation)
+[12.960s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.962s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.962s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[12.963s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[13.075s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[13.075s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[13.076s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[13.077s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[13.098s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[13.100s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sunrise/Robot_Car/install/local_setup.ps1'
+[13.109s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sunrise/Robot_Car/install/_local_setup_util_ps1.py'
+[13.123s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sunrise/Robot_Car/install/setup.ps1'
+[13.132s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sunrise/Robot_Car/install/local_setup.sh'
+[13.137s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sunrise/Robot_Car/install/_local_setup_util_sh.py'
+[13.142s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sunrise/Robot_Car/install/setup.sh'
+[13.149s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sunrise/Robot_Car/install/local_setup.bash'
+[13.153s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sunrise/Robot_Car/install/setup.bash'
+[13.161s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sunrise/Robot_Car/install/local_setup.zsh'
+[13.166s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sunrise/Robot_Car/install/setup.zsh'

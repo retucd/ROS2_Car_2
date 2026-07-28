@@ -1,0 +1,40 @@
+[0.107s] Invoking command in '/home/sunrise/Robot_Car/build/car_navigation': AMENT_PREFIX_PATH=/home/sunrise/Robot_Car/install/car_base_driver:/home/sunrise/Robot_Car/install/ydlidar_ros2_driver:/home/sunrise/Robot_Car/install/car_navigation:/home/sunrise/Robot_Car/install/car_model_urdf:/home/sunrise/Robot_Car/install/car_control_tools:/opt/ros/humble CMAKE_PREFIX_PATH=/home/sunrise/Robot_Car/install/ydlidar_ros2_driver:/home/sunrise/Robot_Car/install/car_model_urdf:/home/sunrise/Robot_Car/install/car_navigation:/home/sunrise/Robot_Car/install/car_control_tools:/home/sunrise/Robot_Car/install/car_base_driver:/opt/ros/humble PYTHONPATH=/home/sunrise/Robot_Car/install/car_base_driver/lib/python3.10/site-packages:/home/sunrise/Robot_Car/install/car_control_tools/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/sunrise/Robot_Car/build/car_navigation -- -j4 -l4
+[0.231s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.197s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.686s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.696s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.699s] -- Added test 'lint_cmake' to check CMake code style
+[1.702s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.708s] -- Added test 'xmllint' to check XML markup files
+[1.713s] -- Configuring done
+[1.732s] -- Generating done
+[1.741s] -- Build files have been written to: /home/sunrise/Robot_Car/build/car_navigation
+[1.818s] Invoked command in '/home/sunrise/Robot_Car/build/car_navigation' returned '0': AMENT_PREFIX_PATH=/home/sunrise/Robot_Car/install/car_base_driver:/home/sunrise/Robot_Car/install/ydlidar_ros2_driver:/home/sunrise/Robot_Car/install/car_navigation:/home/sunrise/Robot_Car/install/car_model_urdf:/home/sunrise/Robot_Car/install/car_control_tools:/opt/ros/humble CMAKE_PREFIX_PATH=/home/sunrise/Robot_Car/install/ydlidar_ros2_driver:/home/sunrise/Robot_Car/install/car_model_urdf:/home/sunrise/Robot_Car/install/car_navigation:/home/sunrise/Robot_Car/install/car_control_tools:/home/sunrise/Robot_Car/install/car_base_driver:/opt/ros/humble PYTHONPATH=/home/sunrise/Robot_Car/install/car_base_driver/lib/python3.10/site-packages:/home/sunrise/Robot_Car/install/car_control_tools/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/sunrise/Robot_Car/build/car_navigation -- -j4 -l4
+[1.826s] Invoking command in '/home/sunrise/Robot_Car/build/car_navigation': AMENT_PREFIX_PATH=/home/sunrise/Robot_Car/install/car_base_driver:/home/sunrise/Robot_Car/install/ydlidar_ros2_driver:/home/sunrise/Robot_Car/install/car_navigation:/home/sunrise/Robot_Car/install/car_model_urdf:/home/sunrise/Robot_Car/install/car_control_tools:/opt/ros/humble CMAKE_PREFIX_PATH=/home/sunrise/Robot_Car/install/ydlidar_ros2_driver:/home/sunrise/Robot_Car/install/car_model_urdf:/home/sunrise/Robot_Car/install/car_navigation:/home/sunrise/Robot_Car/install/car_control_tools:/home/sunrise/Robot_Car/install/car_base_driver:/opt/ros/humble PYTHONPATH=/home/sunrise/Robot_Car/install/car_base_driver/lib/python3.10/site-packages:/home/sunrise/Robot_Car/install/car_control_tools/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/sunrise/Robot_Car/build/car_navigation
+[1.851s] -- Install configuration: ""
+[1.852s] -- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/config
+[1.853s] -- Installing: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/config/cartographer_2d.lua
+[1.854s] -- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/config/nav2_params.yaml
+[1.854s] -- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/config/ekf.yaml
+[1.855s] -- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/config/slam_toolbox.yaml
+[1.856s] -- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/launch
+[1.857s] -- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/launch/robot_bringup.launch.py
+[1.858s] -- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/launch/mapping.launch.py
+[1.865s] -- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/launch/navigation.launch.py
+[1.865s] -- Installing: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/launch/cartographer_mapping.launch.py
+[1.867s] -- Installing: /home/sunrise/Robot_Car/install/car_navigation/share/ament_index/resource_index/package_run_dependencies/car_navigation
+[1.869s] -- Installing: /home/sunrise/Robot_Car/install/car_navigation/share/ament_index/resource_index/parent_prefix_path/car_navigation
+[1.872s] -- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/environment/ament_prefix_path.sh
+[1.876s] -- Installing: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/environment/ament_prefix_path.dsv
+[1.877s] -- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/environment/path.sh
+[1.878s] -- Installing: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/environment/path.dsv
+[1.878s] -- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/local_setup.bash
+[1.879s] -- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/local_setup.sh
+[1.880s] -- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/local_setup.zsh
+[1.880s] -- Installing: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/local_setup.dsv
+[1.881s] -- Installing: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/package.dsv
+[1.883s] -- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/ament_index/resource_index/packages/car_navigation
+[1.884s] -- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/cmake/car_navigationConfig.cmake
+[1.885s] -- Up-to-date: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/cmake/car_navigationConfig-version.cmake
+[1.886s] -- Installing: /home/sunrise/Robot_Car/install/car_navigation/share/car_navigation/package.xml
+[1.887s] Invoked command in '/home/sunrise/Robot_Car/build/car_navigation' returned '0': AMENT_PREFIX_PATH=/home/sunrise/Robot_Car/install/car_base_driver:/home/sunrise/Robot_Car/install/ydlidar_ros2_driver:/home/sunrise/Robot_Car/install/car_navigation:/home/sunrise/Robot_Car/install/car_model_urdf:/home/sunrise/Robot_Car/install/car_control_tools:/opt/ros/humble CMAKE_PREFIX_PATH=/home/sunrise/Robot_Car/install/ydlidar_ros2_driver:/home/sunrise/Robot_Car/install/car_model_urdf:/home/sunrise/Robot_Car/install/car_navigation:/home/sunrise/Robot_Car/install/car_control_tools:/home/sunrise/Robot_Car/install/car_base_driver:/opt/ros/humble PYTHONPATH=/home/sunrise/Robot_Car/install/car_base_driver/lib/python3.10/site-packages:/home/sunrise/Robot_Car/install/car_control_tools/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/sunrise/Robot_Car/build/car_navigation

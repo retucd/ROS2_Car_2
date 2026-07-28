@@ -1,0 +1,27 @@
+car_base_driver:
+  ros__parameters:
+    port: /dev/ttyS3
+    baudrate: 115200
+    send_rate: 20.0
+    reconnect_interval: 2.0
+    cmd_vel_timeout: 0.5
+
+    wheel_separation: 0.1497
+    wheel_radius: 0.024
+    max_wheel_speed: 0.8
+    distance_jump_threshold: 0.20
+
+    left_command_sign: 1.0
+    right_command_sign: 1.0
+    left_feedback_sign: 1.0
+    right_feedback_sign: 1.0
+
+    acceleration_scale: 9.80665
+    gyro_scale: 0.017453292519943295
+    angle_scale: 0.017453292519943295
+
+    odom_frame: odom
+    base_frame: base_footprint
+    imu_frame: base_link
+    odom_topic: /wheel/odom
+    publish_odom_tf: false

@@ -1,0 +1,2 @@
+[console_scripts]
+serial_driver = car_base_driver.serial_driver:main

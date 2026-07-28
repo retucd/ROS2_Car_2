@@ -1,0 +1,2 @@
+[console_scripts]
+terminal_goal = car_control_tools.terminal_goal:main
