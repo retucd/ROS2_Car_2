@@ -1,0 +1,24 @@
+[0.094s] Invoking command in '/home/sunrise/Robot_Car/build/slam_gmapping': CMAKE_PREFIX_PATH=/home/sunrise/Robot_Car/install/openslam_gmapping:/home/sunrise/Robot_Car/install/car_navigation:/home/sunrise/Robot_Car/install/ydlidar_ros2_driver:/home/sunrise/Robot_Car/install/slam_gmapping:/home/sunrise/Robot_Car/install/car_model_urdf:/home/sunrise/Robot_Car/install/car_control_tools:/home/sunrise/Robot_Car/install/car_base_driver:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/Robot_Car/build/slam_gmapping -- -j4 -l4
+[0.458s] [100%] Built target slam_gmapping
+[0.515s] Invoked command in '/home/sunrise/Robot_Car/build/slam_gmapping' returned '0': CMAKE_PREFIX_PATH=/home/sunrise/Robot_Car/install/openslam_gmapping:/home/sunrise/Robot_Car/install/car_navigation:/home/sunrise/Robot_Car/install/ydlidar_ros2_driver:/home/sunrise/Robot_Car/install/slam_gmapping:/home/sunrise/Robot_Car/install/car_model_urdf:/home/sunrise/Robot_Car/install/car_control_tools:/home/sunrise/Robot_Car/install/car_base_driver:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/Robot_Car/build/slam_gmapping -- -j4 -l4
+[0.526s] Invoking command in '/home/sunrise/Robot_Car/build/slam_gmapping': CMAKE_PREFIX_PATH=/home/sunrise/Robot_Car/install/openslam_gmapping:/home/sunrise/Robot_Car/install/car_navigation:/home/sunrise/Robot_Car/install/ydlidar_ros2_driver:/home/sunrise/Robot_Car/install/slam_gmapping:/home/sunrise/Robot_Car/install/car_model_urdf:/home/sunrise/Robot_Car/install/car_control_tools:/home/sunrise/Robot_Car/install/car_base_driver:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/Robot_Car/build/slam_gmapping
+[0.560s] -- Install configuration: "Release"
+[0.562s] -- Execute custom install script
+[0.564s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/slam_gmapping/lib/slam_gmapping/slam_gmapping
+[0.566s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/slam_gmapping/share/slam_gmapping/launch/slam_gmapping.launch.py
+[0.567s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/slam_gmapping/share/ament_index/resource_index/package_run_dependencies/slam_gmapping
+[0.569s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/slam_gmapping/share/ament_index/resource_index/parent_prefix_path/slam_gmapping
+[0.578s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.sh
+[0.581s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.dsv
+[0.586s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/slam_gmapping/share/slam_gmapping/environment/path.sh
+[0.586s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/slam_gmapping/share/slam_gmapping/environment/path.dsv
+[0.587s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/slam_gmapping/share/slam_gmapping/local_setup.bash
+[0.588s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/slam_gmapping/share/slam_gmapping/local_setup.sh
+[0.589s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/slam_gmapping/share/slam_gmapping/local_setup.zsh
+[0.592s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/slam_gmapping/share/slam_gmapping/local_setup.dsv
+[0.594s] -- Symlinking: /home/sunrise/Robot_Car/install/slam_gmapping/share/slam_gmapping/package.dsv
+[0.631s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/slam_gmapping/share/ament_index/resource_index/packages/slam_gmapping
+[0.632s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig.cmake
+[0.633s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig-version.cmake
+[0.635s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/slam_gmapping/share/slam_gmapping/package.xml
+[0.648s] Invoked command in '/home/sunrise/Robot_Car/build/slam_gmapping' returned '0': CMAKE_PREFIX_PATH=/home/sunrise/Robot_Car/install/openslam_gmapping:/home/sunrise/Robot_Car/install/car_navigation:/home/sunrise/Robot_Car/install/ydlidar_ros2_driver:/home/sunrise/Robot_Car/install/slam_gmapping:/home/sunrise/Robot_Car/install/car_model_urdf:/home/sunrise/Robot_Car/install/car_control_tools:/home/sunrise/Robot_Car/install/car_base_driver:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/Robot_Car/build/slam_gmapping

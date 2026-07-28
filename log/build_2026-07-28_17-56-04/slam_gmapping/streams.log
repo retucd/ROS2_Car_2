@@ -1,0 +1,24 @@
+[0.090s] Invoking command in '/home/sunrise/Robot_Car/build/slam_gmapping': AMENT_PREFIX_PATH=/home/sunrise/Robot_Car/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/Robot_Car/install/openslam_gmapping:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/Robot_Car/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/sunrise/Robot_Car/build/slam_gmapping -- -j4 -l4
+[0.437s] [100%] Built target slam_gmapping
+[0.491s] Invoked command in '/home/sunrise/Robot_Car/build/slam_gmapping' returned '0': AMENT_PREFIX_PATH=/home/sunrise/Robot_Car/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/Robot_Car/install/openslam_gmapping:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/Robot_Car/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/sunrise/Robot_Car/build/slam_gmapping -- -j4 -l4
+[0.500s] Invoking command in '/home/sunrise/Robot_Car/build/slam_gmapping': AMENT_PREFIX_PATH=/home/sunrise/Robot_Car/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/Robot_Car/install/openslam_gmapping:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/Robot_Car/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/sunrise/Robot_Car/build/slam_gmapping
+[0.532s] -- Install configuration: "Release"
+[0.534s] -- Execute custom install script
+[0.536s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/slam_gmapping/lib/slam_gmapping/slam_gmapping
+[0.538s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/slam_gmapping/share/slam_gmapping/launch/slam_gmapping.launch.py
+[0.540s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/slam_gmapping/share/ament_index/resource_index/package_run_dependencies/slam_gmapping
+[0.541s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/slam_gmapping/share/ament_index/resource_index/parent_prefix_path/slam_gmapping
+[0.543s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.sh
+[0.544s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.dsv
+[0.547s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/slam_gmapping/share/slam_gmapping/environment/path.sh
+[0.548s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/slam_gmapping/share/slam_gmapping/environment/path.dsv
+[0.550s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/slam_gmapping/share/slam_gmapping/local_setup.bash
+[0.551s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/slam_gmapping/share/slam_gmapping/local_setup.sh
+[0.554s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/slam_gmapping/share/slam_gmapping/local_setup.zsh
+[0.555s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/slam_gmapping/share/slam_gmapping/local_setup.dsv
+[0.556s] -- Symlinking: /home/sunrise/Robot_Car/install/slam_gmapping/share/slam_gmapping/package.dsv
+[0.595s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/slam_gmapping/share/ament_index/resource_index/packages/slam_gmapping
+[0.597s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig.cmake
+[0.599s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig-version.cmake
+[0.600s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/slam_gmapping/share/slam_gmapping/package.xml
+[0.612s] Invoked command in '/home/sunrise/Robot_Car/build/slam_gmapping' returned '0': AMENT_PREFIX_PATH=/home/sunrise/Robot_Car/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/Robot_Car/install/openslam_gmapping:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/Robot_Car/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/sunrise/Robot_Car/build/slam_gmapping

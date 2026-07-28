@@ -1,0 +1,68 @@
+[1.760s] Invoking command in '/home/sunrise/Robot_Car/build/openslam_gmapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/Robot_Car/install/car_control_tools:/home/sunrise/Robot_Car/install/car_base_driver:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/Robot_Car/build/openslam_gmapping -- -j4 -l4
+[2.035s] [ 13%] Built target sensor_base
+[2.038s] [ 27%] Built target utils
+[2.180s] [ 40%] Built target sensor_range
+[2.301s] [ 54%] Built target sensor_odometry
+[2.427s] [ 77%] Built target scanmatcher
+[2.449s] [100%] Built target gridfastslam
+[2.589s] Invoked command in '/home/sunrise/Robot_Car/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/Robot_Car/install/car_control_tools:/home/sunrise/Robot_Car/install/car_base_driver:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/Robot_Car/build/openslam_gmapping -- -j4 -l4
+[2.597s] Invoking command in '/home/sunrise/Robot_Car/build/openslam_gmapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/Robot_Car/install/car_control_tools:/home/sunrise/Robot_Car/install/car_base_driver:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/Robot_Car/build/openslam_gmapping
+[2.748s] -- Install configuration: "Release"
+[2.749s] -- Execute custom install script
+[2.750s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/openslam_gmapping/lib/libgridfastslam.a
+[2.751s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/openslam_gmapping/lib/libscanmatcher.a
+[2.752s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/openslam_gmapping/lib/libsensor_base.a
+[2.753s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[2.754s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[2.755s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[2.756s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[2.766s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/openslam_gmapping/lib/libsensor_odometry.a
+[2.767s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/openslam_gmapping/lib/libsensor_range.a
+[2.768s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/openslam_gmapping/lib/libutils.a
+[2.768s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[2.769s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[2.770s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[2.779s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[2.780s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/openslam_gmapping/include//gmapping/grid/accessstate.h
+[2.781s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/openslam_gmapping/include//gmapping/grid/array2d.h
+[2.782s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/openslam_gmapping/include//gmapping/grid/harray2d.h
+[2.782s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/openslam_gmapping/include//gmapping/grid/map.h
+[2.784s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/openslam_gmapping/include//gmapping/gridfastslam/gridslamprocessor.h
+[2.785s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/openslam_gmapping/include//gmapping/gridfastslam/gridslamprocessor.hxx
+[2.786s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/openslam_gmapping/include//gmapping/gridfastslam/motionmodel.h
+[2.787s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/openslam_gmapping/include//gmapping/log/configuration.h
+[2.788s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/openslam_gmapping/include//gmapping/log/sensorlog.h
+[2.789s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/openslam_gmapping/include//gmapping/particlefilter/particlefilter.h
+[2.790s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/openslam_gmapping/include//gmapping/scanmatcher/icp.h
+[2.791s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/openslam_gmapping/include//gmapping/scanmatcher/scanmatcher.h
+[2.792s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/openslam_gmapping/include//gmapping/scanmatcher/smmap.h
+[2.792s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/openslam_gmapping/include//gmapping/sensor/sensor_base/sensor.h
+[2.793s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/openslam_gmapping/include//gmapping/sensor/sensor_base/sensorreading.h
+[2.794s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry/odometryreading.h
+[2.795s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry/odometrysensor.h
+[2.796s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/openslam_gmapping/include//gmapping/sensor/sensor_range/rangereading.h
+[2.808s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/openslam_gmapping/include//gmapping/sensor/sensor_range/rangesensor.h
+[2.811s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/openslam_gmapping/include//gmapping/utils/autoptr.h
+[2.812s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/openslam_gmapping/include//gmapping/utils/commandline.h
+[2.813s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/openslam_gmapping/include//gmapping/utils/gvalues.h
+[2.814s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/openslam_gmapping/include//gmapping/utils/macro_params.h
+[2.815s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/openslam_gmapping/include//gmapping/utils/point.h
+[2.816s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/openslam_gmapping/include//gmapping/utils/stat.h
+[2.817s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/openslam_gmapping/share/ament_index/resource_index/package_run_dependencies/openslam_gmapping
+[2.818s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/openslam_gmapping/share/ament_index/resource_index/parent_prefix_path/openslam_gmapping
+[2.820s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/openslam_gmapping/share/openslam_gmapping/environment/ament_prefix_path.sh
+[2.821s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/openslam_gmapping/share/openslam_gmapping/environment/ament_prefix_path.dsv
+[2.822s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/openslam_gmapping/share/openslam_gmapping/environment/path.sh
+[2.824s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/openslam_gmapping/share/openslam_gmapping/environment/path.dsv
+[2.825s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/openslam_gmapping/share/openslam_gmapping/local_setup.bash
+[2.826s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/openslam_gmapping/share/openslam_gmapping/local_setup.sh
+[2.828s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/openslam_gmapping/share/openslam_gmapping/local_setup.zsh
+[2.828s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/openslam_gmapping/share/openslam_gmapping/local_setup.dsv
+[2.829s] -- Symlinking: /home/sunrise/Robot_Car/install/openslam_gmapping/share/openslam_gmapping/package.dsv
+[2.830s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/openslam_gmapping/share/ament_index/resource_index/packages/openslam_gmapping
+[2.833s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/openslam_gmapping/share/openslam_gmapping/cmake/ament_cmake_export_libraries-extras.cmake
+[2.835s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/openslam_gmapping/share/openslam_gmapping/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.836s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/openslam_gmapping/share/openslam_gmapping/cmake/openslam_gmappingConfig.cmake
+[2.837s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/openslam_gmapping/share/openslam_gmapping/cmake/openslam_gmappingConfig-version.cmake
+[2.838s] -- Up-to-date symlink: /home/sunrise/Robot_Car/install/openslam_gmapping/share/openslam_gmapping/package.xml
+[4.666s] Invoked command in '/home/sunrise/Robot_Car/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/Robot_Car/install/car_control_tools:/home/sunrise/Robot_Car/install/car_base_driver:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/Robot_Car/build/openslam_gmapping
