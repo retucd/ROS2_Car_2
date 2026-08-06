@@ -6,7 +6,7 @@ car_base_driver:
     reconnect_interval: 2.0
     cmd_vel_timeout: 0.5
 
-    wheel_separation: 0.1497
+    wheel_separation: 0.1686
     wheel_radius: 0.024
     max_wheel_speed: 0.8
     distance_jump_threshold: 0.20

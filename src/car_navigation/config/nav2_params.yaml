@@ -149,7 +149,7 @@ local_costmap:
       width: 3
       height: 3
       resolution: 0.05
-      footprint: "[[0.11, 0.09], [0.11, -0.09], [-0.105, -0.09], [-0.105, 0.09]]"
+      footprint: "[[0.1075, 0.0939], [0.1075, -0.0939], [-0.1075, -0.0939], [-0.1075, 0.0939]]"
       footprint_padding: 0.01
       plugins: [voxel_layer, inflation_layer]
       voxel_layer:
@@ -194,7 +194,7 @@ global_costmap:
       use_sim_time: false
       resolution: 0.05
       track_unknown_space: true
-      footprint: "[[0.11, 0.09], [0.11, -0.09], [-0.105, -0.09], [-0.105, 0.09]]"
+      footprint: "[[0.1075, 0.0939], [0.1075, -0.0939], [-0.1075, -0.0939], [-0.1075, 0.0939]]"
       footprint_padding: 0.01
       plugins: [static_layer, obstacle_layer, inflation_layer]
       static_layer:

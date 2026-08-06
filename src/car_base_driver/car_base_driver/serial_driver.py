@@ -31,7 +31,7 @@ class SerialDriver(Node):
         self.declare_parameter('send_rate', 20.0)
         self.declare_parameter('reconnect_interval', 2.0)
         self.declare_parameter('cmd_vel_timeout', 0.5)
-        self.declare_parameter('wheel_separation', 0.1497)
+        self.declare_parameter('wheel_separation', 0.1686)
         self.declare_parameter('wheel_radius', 0.024)
         self.declare_parameter('max_wheel_speed', 0.8)
         self.declare_parameter('distance_jump_threshold', 0.20)

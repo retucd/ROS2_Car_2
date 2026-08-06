@@ -1,0 +1,30 @@
+[2.467s] Invoking command in '/home/sunrise/Robot_Car/build/car_model_urdf': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sunrise/Robot_Car/build/car_model_urdf -- -j4 -l4
+[3.017s] Invoked command in '/home/sunrise/Robot_Car/build/car_model_urdf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sunrise/Robot_Car/build/car_model_urdf -- -j4 -l4
+[3.209s] Invoking command in '/home/sunrise/Robot_Car/build/car_model_urdf': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sunrise/Robot_Car/build/car_model_urdf
+[3.311s] -- Install configuration: ""
+[3.328s] -- Up-to-date: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/launch
+[3.329s] -- Up-to-date: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/launch/description.launch.py
+[3.331s] -- Up-to-date: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/launch/display_xacro.launch.py
+[3.333s] -- Up-to-date: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/launch/display_urdf.launch.py
+[3.333s] -- Up-to-date: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/urdf
+[3.340s] -- Installing: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/urdf/car_model.urdf
+[3.341s] -- Installing: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/urdf/car_model.urdf.xacro
+[3.342s] -- Up-to-date: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/config
+[3.343s] -- Up-to-date: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/config/rviz
+[3.369s] -- Up-to-date: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/config/rviz/dispaly_model.rviz
+[3.387s] -- Up-to-date: /home/sunrise/Robot_Car/install/car_model_urdf/share/ament_index/resource_index/package_run_dependencies/car_model_urdf
+[3.390s] -- Up-to-date: /home/sunrise/Robot_Car/install/car_model_urdf/share/ament_index/resource_index/parent_prefix_path/car_model_urdf
+[3.391s] -- Up-to-date: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/environment/ament_prefix_path.sh
+[3.399s] -- Up-to-date: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/environment/ament_prefix_path.dsv
+[3.405s] -- Up-to-date: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/environment/path.sh
+[3.406s] -- Up-to-date: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/environment/path.dsv
+[3.407s] -- Up-to-date: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/local_setup.bash
+[3.414s] -- Up-to-date: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/local_setup.sh
+[3.416s] -- Up-to-date: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/local_setup.zsh
+[3.423s] -- Up-to-date: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/local_setup.dsv
+[3.429s] -- Installing: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/package.dsv
+[3.437s] -- Up-to-date: /home/sunrise/Robot_Car/install/car_model_urdf/share/ament_index/resource_index/packages/car_model_urdf
+[3.439s] -- Up-to-date: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/cmake/car_model_urdfConfig.cmake
+[3.442s] -- Up-to-date: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/cmake/car_model_urdfConfig-version.cmake
+[3.450s] -- Up-to-date: /home/sunrise/Robot_Car/install/car_model_urdf/share/car_model_urdf/package.xml
+[3.457s] Invoked command in '/home/sunrise/Robot_Car/build/car_model_urdf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sunrise/Robot_Car/build/car_model_urdf

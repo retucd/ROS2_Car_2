@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/car_control_tools/car_control_tools.egg-info/PKG-INFO
+writing dependency_links to ../../build/car_control_tools/car_control_tools.egg-info/dependency_links.txt
+writing entry points to ../../build/car_control_tools/car_control_tools.egg-info/entry_points.txt
+writing requirements to ../../build/car_control_tools/car_control_tools.egg-info/requires.txt
+writing top-level names to ../../build/car_control_tools/car_control_tools.egg-info/top_level.txt
+reading manifest file '../../build/car_control_tools/car_control_tools.egg-info/SOURCES.txt'
+writing manifest file '../../build/car_control_tools/car_control_tools.egg-info/SOURCES.txt'
+running build
+running build_py
+copying car_control_tools/__init__.py -> /home/sunrise/Robot_Car/build/car_control_tools/build/lib/car_control_tools
+copying car_control_tools/goal_utils.py -> /home/sunrise/Robot_Car/build/car_control_tools/build/lib/car_control_tools
+copying car_control_tools/terminal_goal.py -> /home/sunrise/Robot_Car/build/car_control_tools/build/lib/car_control_tools
+running install
+running install_lib
+running install_data
+copying resource/car_control_tools -> /home/sunrise/Robot_Car/install/car_control_tools/share/ament_index/resource_index/packages
+copying package.xml -> /home/sunrise/Robot_Car/install/car_control_tools/share/car_control_tools
+running install_egg_info
+removing '/home/sunrise/Robot_Car/install/car_control_tools/lib/python3.10/site-packages/car_control_tools-0.0.1-py3.10.egg-info' (and everything under it)
+Copying ../../build/car_control_tools/car_control_tools.egg-info to /home/sunrise/Robot_Car/install/car_control_tools/lib/python3.10/site-packages/car_control_tools-0.0.1-py3.10.egg-info
+running install_scripts
+Installing terminal_goal script to /home/sunrise/Robot_Car/install/car_control_tools/lib/car_control_tools
+writing list of installed files to '/home/sunrise/Robot_Car/build/car_control_tools/install.log'

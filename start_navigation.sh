@@ -6,6 +6,7 @@ source /opt/ros/humble/setup.bash
 source "$HOME/Robot_Car/install/setup.bash"
 
 BASE_PORT=/dev/ttyS3
+MAP_FILE="$HOME/Robot_Car/maps/cartographer_map.yaml"
 
 gnome-terminal --title="ydlidar" -- bash -c "
 source /opt/ros/humble/setup.bash
@@ -23,10 +24,15 @@ source /opt/ros/humble/setup.bash
 source \"\$HOME/Robot_Car/install/setup.bash\"
 
 ros2 launch car_navigation navigation.launch.py \
-  base_port:=$BASE_PORT
+  base_port:=$BASE_PORT \
+  map:=$MAP_FILE \
+  use_sim_time:=false
 
 exec bash
 "
 
-echo "Navigation started. Start RViz in the virtual machine:"
+echo "Navigation started with map:"
+echo "$MAP_FILE"
+echo ""
+echo "Start RViz in the virtual machine:"
 echo "ros2 launch car_navigation rviz.launch.py"

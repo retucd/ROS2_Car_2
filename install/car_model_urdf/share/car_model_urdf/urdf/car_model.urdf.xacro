@@ -4,29 +4,39 @@
 
   <xacro:property name="footprint_radius" value="0.001"/>
 
-  <xacro:property name="chassis_length" value="0.195"/>
-  <xacro:property name="chassis_width" value="0.128"/>
-  <xacro:property name="chassis_height" value="0.035"/>
+  <xacro:property name="chassis_length" value="0.215"/>
+  <xacro:property name="chassis_width" value="0.130"/>
+  <xacro:property name="chassis_height" value="0.070"/>
   <xacro:property name="chassis_mass" value="1.0"/>
 
   <xacro:property name="wheel_radius" value="0.024"/>
   <xacro:property name="wheel_width" value="0.0192"/>
   <xacro:property name="wheel_mass" value="0.12"/>
   <xacro:property name="wheel_x" value="-0.070"/>
+  <xacro:property name="wheel_y" value="0.0843"/>
 
-  <xacro:property name="wheel_y" value="0.07485"/>
+  <xacro:property name="bracket_x_size" value="0.040"/>
+  <xacro:property name="bracket_thickness" value="0.006"/>
+  <xacro:property name="bracket_height" value="0.045"/>
+  <xacro:property name="bracket_mass" value="0.05"/>
+  <xacro:property name="bracket_arm_length" value="${wheel_y - chassis_width / 2.0}"/>
+  <xacro:property name="bracket_plate_z" value="${bracket_height / 2.0 - 0.010}"/>
 
   <xacro:property name="caster_radius" value="0.0125"/>
   <xacro:property name="caster_mass" value="0.03"/>
   <xacro:property name="caster_x" value="0.075"/>
 
-  <xacro:property name="laser_x" value="0.05"/>
+  <xacro:property name="laser_x" value="${-chassis_length / 2.0 + 0.120}"/>
   <xacro:property name="laser_y" value="0.0"/>
-  <xacro:property name="laser_radius" value="0.028"/>
-  <xacro:property name="laser_height" value="0.040"/>
-
-  <xacro:property name="laser_z" value="${chassis_height + laser_height / 2.0}"/>
+  <xacro:property name="laser_radius" value="0.03025"/>
+  <xacro:property name="laser_height" value="0.016"/>
   <xacro:property name="laser_mass" value="0.10"/>
+
+  <xacro:property name="support_radius" value="0.015"/>
+  <xacro:property name="support_height" value="0.049"/>
+  <xacro:property name="support_mass" value="0.05"/>
+  <xacro:property name="support_z" value="${chassis_height + support_height / 2.0}"/>
+  <xacro:property name="laser_support_to_laser_z" value="${support_height / 2.0 + laser_height / 2.0}"/>
 
   <material name="black">
     <color rgba="0.08 0.08 0.08 1"/>
@@ -140,7 +150,50 @@
       origin_xyz="0 0 ${chassis_height / 2.0}"/>
   </link>
 
-  <xacro:macro name="drive_wheel" params="prefix y_offset">
+  <xacro:macro name="drive_wheel" params="prefix side_sign">
+    <link name="${prefix}_wheel_bracket_link">
+      <visual>
+        <origin xyz="0 ${side_sign * bracket_thickness / 2.0} ${bracket_plate_z}" rpy="0 0 0"/>
+        <geometry>
+          <box size="${bracket_x_size} ${bracket_thickness} ${bracket_height}"/>
+        </geometry>
+        <material name="black"/>
+      </visual>
+      <collision>
+        <origin xyz="0 ${side_sign * bracket_thickness / 2.0} ${bracket_plate_z}" rpy="0 0 0"/>
+        <geometry>
+          <box size="${bracket_x_size} ${bracket_thickness} ${bracket_height}"/>
+        </geometry>
+      </collision>
+
+      <visual>
+        <origin xyz="0 ${side_sign * bracket_arm_length / 2.0} 0" rpy="0 0 0"/>
+        <geometry>
+          <box size="${bracket_x_size} ${bracket_arm_length} ${bracket_thickness}"/>
+        </geometry>
+        <material name="black"/>
+      </visual>
+      <collision>
+        <origin xyz="0 ${side_sign * bracket_arm_length / 2.0} 0" rpy="0 0 0"/>
+        <geometry>
+          <box size="${bracket_x_size} ${bracket_arm_length} ${bracket_thickness}"/>
+        </geometry>
+      </collision>
+
+      <xacro:box_inertial
+        mass="${bracket_mass}"
+        x="${bracket_x_size}"
+        y="${bracket_arm_length}"
+        z="${bracket_height}"
+        origin_xyz="0 ${side_sign * bracket_arm_length / 2.0} ${bracket_plate_z}"/>
+    </link>
+
+    <joint name="${prefix}_wheel_bracket_joint" type="fixed">
+      <origin xyz="${wheel_x} ${side_sign * chassis_width / 2.0} 0" rpy="0 0 0"/>
+      <parent link="base_link"/>
+      <child link="${prefix}_wheel_bracket_link"/>
+    </joint>
+
     <link name="${prefix}_wheel_link">
       <visual>
         <origin xyz="0 0 0" rpy="${pi / 2.0} 0 0"/>
@@ -162,16 +215,16 @@
     </link>
 
     <joint name="${prefix}_wheel_joint" type="continuous">
-      <origin xyz="${wheel_x} ${y_offset} 0" rpy="0 0 0"/>
-      <parent link="base_link"/>
+      <origin xyz="0 ${side_sign * bracket_arm_length} 0" rpy="0 0 0"/>
+      <parent link="${prefix}_wheel_bracket_link"/>
       <child link="${prefix}_wheel_link"/>
       <axis xyz="0 1 0"/>
       <dynamics damping="0.05" friction="0.02"/>
     </joint>
   </xacro:macro>
 
-  <xacro:drive_wheel prefix="left" y_offset="${wheel_y}"/>
-  <xacro:drive_wheel prefix="right" y_offset="${-wheel_y}"/>
+  <xacro:drive_wheel prefix="left" side_sign="1"/>
+  <xacro:drive_wheel prefix="right" side_sign="-1"/>
 
   <link name="front_caster_link">
     <visual>
@@ -191,13 +244,36 @@
   </link>
 
   <joint name="front_caster_joint" type="fixed">
-    <origin
-      xyz="${caster_x} 0 ${caster_radius - wheel_radius}"
-      rpy="0 0 0"/>
+    <origin xyz="${caster_x} 0 ${caster_radius - wheel_radius}" rpy="0 0 0"/>
     <parent link="base_link"/>
     <child link="front_caster_link"/>
   </joint>
 
+  <link name="laser_support_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="${support_radius}" length="${support_height}"/>
+      </geometry>
+      <material name="blue"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="${support_radius}" length="${support_height}"/>
+      </geometry>
+    </collision>
+    <xacro:z_cylinder_inertial
+      mass="${support_mass}"
+      radius="${support_radius}"
+      length="${support_height}"/>
+  </link>
+
+  <joint name="laser_support_joint" type="fixed">
+    <origin xyz="${laser_x} ${laser_y} ${support_z}" rpy="0 0 0"/>
+    <parent link="base_link"/>
+    <child link="laser_support_link"/>
+  </joint>
 
   <link name="laser_frame">
     <visual>
@@ -220,8 +296,8 @@
   </link>
 
   <joint name="laser_joint" type="fixed">
-    <origin xyz="${laser_x} ${laser_y} ${laser_z}" rpy="0 0 0"/>
-    <parent link="base_link"/>
+    <origin xyz="0 0 ${laser_support_to_laser_z}" rpy="0 0 0"/>
+    <parent link="laser_support_link"/>
     <child link="laser_frame"/>
   </joint>
 
